@@ -4,11 +4,33 @@
   "timezone": "Asia/Seoul",
   "graph_base": "https://graph.facebook.com/v21.0",
   "public_base_url": "",
-  "base_hashtags": ["#하이쿠", "#오늘의시", "#감성글귀", "#마음위로", "#시추천", "#일본시", "#haiku"],
+  "base_hashtags": [
+    "#하이쿠",
+    "#오늘의시",
+    "#감성글귀",
+    "#마음위로",
+    "#시추천",
+    "#일본시",
+    "#haiku"
+  ],
   "season_hashtags": {
-    "autumn": ["#가을감성", "#늦가을"],
-    "winter": ["#겨울감성", "#겨울시"],
-    "spring": ["#봄감성", "#봄시"],
-    "summer": ["#여름감성", "#여름시"]
-  }
+    "autumn": [
+      "#가을감성",
+      "#늦가을"
+    ],
+    "winter": [
+      "#겨울감성",
+      "#겨울시"
+    ],
+    "spring": [
+      "#봄감성",
+      "#봄시"
+    ],
+    "summer": [
+      "#여름감성",
+      "#여름시"
+    ]
+  },
+  "color_start": "2026-10-30",
+  "color_block_days": 3
 }
