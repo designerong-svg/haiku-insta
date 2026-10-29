@@ -1,1 +1,75 @@
+name: daily-haiku
 
+on:
+  schedule:
+    - cron: "0 23 * * *"   # 매일 08:00 KST (UTC 23:00). GitHub 사정으로 수~수십 분 늦을 수 있음
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "렌더링만 하고 게시하지 않음 (결과물은 Artifacts로 확인)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-haiku
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      HAIKU_AUTO_APPROVE: ${{ vars.HAIKU_AUTO_APPROVE }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install fonts and dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y fonts-noto-cjk
+          pip install -r requirements.txt
+
+      - name: Refill queue (optional, needs ANTHROPIC_API_KEY)
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        continue-on-error: true
+        run: python -m src.generate --if-below 5
+
+      - name: Select and render
+        run: python -m src.run_daily prepare
+
+      - name: Upload preview (dry run)
+        if: ${{ inputs.dry_run == true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: haiku-preview
+          path: out/
+
+      - name: Commit rendered images (needed so Instagram can fetch public URLs)
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "haiku-bot"
+          git config user.email "haiku-bot@users.noreply.github.com"
+          git add out data
+          git commit -m "render: daily haiku images" || echo "nothing to commit"
+          git push
+
+      - name: Publish to Instagram
+        if: ${{ inputs.dry_run != true }}
+        run: python -m src.run_daily publish
+
+      - name: Commit queue state
+        if: ${{ always() && inputs.dry_run != true }}
+        run: |
+          git add -A out data
+          git commit -m "post: update queue" || echo "nothing to commit"
+          git pull --rebase
+          git push
