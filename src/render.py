@@ -96,21 +96,26 @@ def _font_for(jp: bool, weight: str, size: int) -> ImageFont.FreeTypeFont:
 # ───────────────────────── 텍스트 ─────────────────────────
 
 
-def text_w(text: str, weight: str, size: int, tracking: int = 0) -> float:
-    w = sum(_font_for(jp, weight, size).getlength(s) for jp, s in _runs(text))
+KTRACK = -0.03  # 한글·영문 자간: 글자 크기의 -3%
+
+
+def text_w(text: str, weight: str, size: int, tracking: int = 0, ktrack: float = 0.0) -> float:
+    w = sum(_font_for(jp, weight, size).getlength(s) + (0 if jp else ktrack * size * len(s))
+            for jp, s in _runs(text))
     return w + tracking * max(len(text) - 1, 0)
 
 
-def draw_text(d, x, y, text, weight, size, fill, align="center", tracking=0):
-    """y는 기준선(baseline). 한글·일본어 폰트가 섞여도 같은 줄에 맞춘다."""
-    w = text_w(text, weight, size, tracking)
+def draw_text(d, x, y, text, weight, size, fill, align="center", tracking=0, ktrack=0.0):
+    """y는 기준선(baseline). 한글·일본어 폰트가 섞여도 같은 줄에 맞춘다. ktrack: 한글 자간(em 비율)."""
+    w = text_w(text, weight, size, tracking, ktrack)
     cx = x - w / 2 if align == "center" else x if align == "left" else x - w
     for jp, s in _runs(text):
         f = _font_for(jp, weight, size)
-        if tracking:
+        tr = tracking + (0 if jp else ktrack * size)
+        if tr:
             for ch in s:
                 d.text((cx, y), ch, font=f, fill=fill, anchor="ls")
-                cx += f.getlength(ch) + tracking
+                cx += f.getlength(ch) + tr
         else:
             d.text((cx, y), s, font=f, fill=fill, anchor="ls")
             cx += f.getlength(s)
@@ -323,6 +328,14 @@ def _render_classic(post: dict, out_dir: Path, cfg: dict) -> list[Path]:
 # ═════════════ POSTER 스타일 ═════════════
 # 원색(빨강·검정·종이색) 대비 + 한 줄마다 하이라이트 박스 + 묵직한 명조 + 기하학 블록 + 거친 그레인.
 RED = (220, 42, 26)
+BLUE = (2, 67, 211)  # 레퍼런스(BeautyLink 포스터) 블루 샘플값
+YELLOW = (255, 234, 0)  # 레퍼런스(Poly Hainan 포스터) 노랑 샘플값
+RED_BASE = RED
+
+
+def _on(c):
+    """강조색 박스 위에 올릴 글자색: 밝은 색(노랑)이면 먹색, 아니면 종이색."""
+    return INK if (0.299 * c[0] + 0.587 * c[1] + 0.114 * c[2]) > 160 else PAPER
 INK = (24, 22, 22)
 PAPER = (250, 247, 241)
 
@@ -332,25 +345,42 @@ def _flat(color, grain=0.06):
     return Image.blend(img, Image.effect_noise((W, H), 30).convert("RGB"), grain)
 
 
-def _box_h(size: int) -> int:
-    return round(size * 1.08) + 2 * round(size * 0.06)
+def _is_jp_line(ln: str) -> bool:
+    ch = [c for c in ln if not c.isspace()]
+    return bool(ch) and sum(_is_jp(c) for c in ch) * 2 > len(ch)
 
 
-def draw_boxed(d, lines, x, y, size, weight, fg, bg, gap=4, pad_x=None):
-    """줄마다 글자 폭에 딱 맞는 박스를 깔고 쌓는다(왼쪽 정렬, 오른쪽은 들쭉날쭉). 끝 y를 반환."""
+def _metrics(size: int, jp: bool = False, full: bool = False):
+    """(박스 높이, 줄 간격). 박스를 글자보다 낮게 잡아 글자가 위아래로 살짝 걸치게 한다.
+    일본어는 글자가 박스 위·아래로 더 튀어나오도록 박스를 더 낮춘다."""
+    if full or (size <= 40 and not jp):  # 작은 글자·밝은 배경 위 글자는 박스를 꽉 채운다
+        return round(size * 1.08), round(size * 1.14)
+    if jp:
+        bh = round(size * 0.60)
+        return bh, round(size * 1.0)
+    bh = round(size * 0.90)
+    return bh, round(size * 1.03)
+
+
+def _box_h(size: int, jp: bool = False, full: bool = False) -> int:
+    return _metrics(size, jp, full)[0]
+
+
+def draw_boxed(d, lines, x, y, size, weight, fg, bg, gap=None, pad_x=None, jp=None, full=False):
+    """줄마다 글자 폭에 맞는 박스를 깔고 쌓는다(왼쪽 정렬). 끝 y를 반환."""
     pad_x = round(size * 0.2) if pad_x is None else pad_x
-    pad_y = round(size * 0.06)
-    bh = _box_h(size)
     for ln in lines:
-        bw = text_w(ln, weight, size) + 2 * pad_x
+        j = _is_jp_line(ln) if jp is None else jp
+        bh, pitch = _metrics(size, j, full)
+        bw = text_w(ln, weight, size, 0, KTRACK) + 2 * pad_x
         d.rectangle((x, y, x + bw, y + bh), fill=bg)
-        draw_text(d, x + pad_x, y + pad_y + round(size * 0.9), ln, weight, size, fg, align="left")
-        y += bh + gap
+        draw_text(d, x + pad_x, y + bh / 2 + size * 0.37, ln, weight, size, fg, align="left", ktrack=KTRACK)
+        y += pitch
     return y
 
 
-def _stack_h(n: int, size: int, gap: int = 4) -> int:
-    return n * (_box_h(size) + gap)
+def _stack_h(n: int, size: int, jp: bool = False, full: bool = False) -> int:
+    return n * _metrics(size, jp, full)[1]
 
 
 def _blocks(img: Image.Image, seed: str) -> None:
@@ -386,7 +416,7 @@ def _chrome_poster(img: Image.Image, page: int, total: int, handle: str, fg) -> 
 
 def _fit(lines, weight, max_w, start, stop=60, step=4):
     for s in range(start, stop, -step):
-        if max(text_w(l, weight, s) for l in lines) + 2 * round(s * 0.2) <= max_w:
+        if max(text_w(l, weight, s, 0, KTRACK) for l in lines) + 2 * round(s * 0.2) <= max_w:
             return s
     return stop
 
@@ -409,11 +439,11 @@ def _p_original(p):
     d = ImageDraw.Draw(img)
     size = _fit(p["original"], "Black", 880, 130)
     rsize = 30
-    total = 60 + _stack_h(len(p["original"]), size) + 40 + _stack_h(len(p["romaji"]), rsize)
+    total = 60 + _stack_h(len(p["original"]), size, True) + 60 + _stack_h(len(p["romaji"]), rsize)
     y = max(250, (H - total) / 2 + 20)
-    draw_boxed(d, ["原文"], 100, y - 70, 30, "Black", PAPER, INK)
-    y = draw_boxed(d, p["original"], 100, y, size, "Black", INK, PAPER)
-    draw_boxed(d, p["romaji"], 100, y + 40, rsize, "Regular", PAPER, INK)
+    draw_boxed(d, ["原文"], 100, y - 80, 30, "Black", PAPER, INK)
+    y = draw_boxed(d, p["original"], 100, y + 20, size, "Black", INK, PAPER, jp=True)
+    draw_boxed(d, p["romaji"], 100, y + 50, rsize, "Regular", PAPER, INK)
     return img
 
 
@@ -424,12 +454,12 @@ def _p_translation(p):
     lines = p["translation_ko"]
     size = _fit(lines, "Black", 860, 76)
     pad = round(size * 0.2)
-    mw = max(text_w(l, "Black", size) for l in lines) + 2 * pad
+    mw = max(text_w(l, "Black", size, 0, KTRACK) for l in lines) + 2 * pad
     x = (W - mw) / 2
-    total = _stack_h(len(lines), size) + 30 + _box_h(34)
+    total = _stack_h(len(lines), size, full=True) + 30 + _box_h(34)
     y = (H - total) / 2
-    y = draw_boxed(d, lines, x, y, size, "Black", PAPER, INK)
-    draw_boxed(d, [f"{p['poet_ko']} · {p['poet_ja']}"], x, y + 26, 34, "Black", PAPER, RED)
+    y = draw_boxed(d, lines, x, y, size, "Black", PAPER, INK, full=True)
+    draw_boxed(d, [f"{p['poet_ko']} · {p['poet_ja']}"], x, y + 26, 34, "Black", _on(RED), RED)
     return img
 
 
@@ -437,7 +467,7 @@ def _p_commentary(p):
     img = _flat(INK)
     d = ImageDraw.Draw(img)
     d.rectangle((W - 160, 0, W, 140), fill=RED)
-    draw_boxed(d, [f"계절어 · {p['kigo_ko']} {p['kigo_ja']}"], 110, 190, 32, "Black", PAPER, RED)
+    draw_boxed(d, [f"계절어 · {p['kigo_ko']} {p['kigo_ja']}"], 110, 190, 32, "Black", _on(RED), RED)
     for size in range(42, 31, -2):
         lh = round(size * 1.75)
         wrapped = [wrap(t, "Regular", size, 860) for t in p["commentary_ko"]]
@@ -447,7 +477,7 @@ def _p_commentary(p):
     y = 360 + max(0, (1140 - 360 - total)) * 0.4
     for para in wrapped:
         for ln in para:
-            draw_text(d, 110, y, ln, "Regular", size, PAPER, align="left")
+            draw_text(d, 110, y, ln, "Regular", size, PAPER, align="left", ktrack=KTRACK)
             y += lh
         y += 40
     return img
@@ -464,11 +494,24 @@ def _p_closing(p, handle):
     y = draw_boxed(d, q, 100, y, size, "Black", INK, PAPER)
     y = draw_boxed(d, notes, 100, y + 50, 32, "Regular", PAPER, INK)
     if handle:
-        draw_boxed(d, [handle], 100, y + 40, 34, "Black", RED, PAPER)
+        draw_boxed(d, [handle], 100, y + 40, 34, "Black", INK if _on(RED) == INK else RED, PAPER)
     return img
 
 
+def poster_color(date_iso: str | None, cfg: dict):
+    """레드 3일 → 블루 3일 → 옐로 3일 → 반복 … 날짜 기준 교대. 시작일(color_start)부터 센다."""
+    import datetime as _dt
+    start = _dt.date.fromisoformat(cfg.get("color_start", "2026-10-30"))
+    try:
+        n = (_dt.date.fromisoformat(date_iso) - start).days if date_iso else 0
+    except ValueError:
+        n = 0
+    return (RED_BASE, BLUE, YELLOW)[(n // cfg.get("color_block_days", 3)) % 3]
+
+
 def _render_poster(post: dict, out_dir: Path, cfg: dict) -> list[Path]:
+    global RED
+    RED = post.get("_color") or RED_BASE
     out_dir.mkdir(parents=True, exist_ok=True)
     handle = cfg.get("handle", "")
     slides = [(_p_cover(post), INK), (_p_original(post), INK), (_p_translation(post), INK),

@@ -46,7 +46,8 @@ def cmd_prepare(args) -> int:
 
     out = ROOT / "out" / item["id"]
     shutil.rmtree(out, ignore_errors=True)
-    files = render.render_post(item, out, cfg)
+    today = dt.datetime.now(ZoneInfo(cfg["timezone"])).date().isoformat()
+    files = render.render_post({**item, "_color": render.poster_color(today, cfg)}, out, cfg)
     STATE.parent.mkdir(exist_ok=True)
     STATE.write_text(json.dumps({"id": item["id"], "files": [str(f.relative_to(ROOT)) for f in files]}), "utf-8")
 
