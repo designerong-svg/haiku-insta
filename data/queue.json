@@ -28,9 +28,8 @@
       "아무도 알아주지 않아도, 당신이 걷고 있는 길은 이미 하나의 풍경입니다."
     ],
     "question_ko": "혼자 걸어야 하는 순간, 여러분은 어떤 생각으로 버티시나요?",
-    "status": "posted",
-    "posted_at": "2026-10-29T16:54:36+09:00",
-    "media_id": "17967627429039969"
+    "status": "approved",
+    "posted_at": null
   },
   {
     "id": "h002",
@@ -571,7 +570,8 @@
     ],
     "question_ko": "오늘 퇴근길에 올려다본 하늘은 어땠나요?",
     "status": "approved",
-    "posted_at": null
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
   },
   {
     "id": "n03",
@@ -602,7 +602,7 @@
       "더 가지려 애쓰지 않아도 오늘 쓸 만큼은 이미 곁에 와 있는지 모릅니다."
     ],
     "question_ko": "지금 곁에 있어서 충분한 것 하나를 꼽는다면?",
-    "status": "draft",
+    "status": "approved",
     "posted_at": null
   },
   {
@@ -826,7 +826,7 @@
       "눈을 감아도 남는 장면이 있다면 그것이 오늘의 한 컷입니다."
     ],
     "question_ko": "오늘 하루를 한 장면으로 남긴다면 어떤 장면인가요?",
-    "status": "draft",
+    "status": "approved",
     "posted_at": null
   },
   {
@@ -890,8 +890,9 @@
       "기억은 때로 소리 없이 한자리에 오래 머무는 일입니다."
     ],
     "question_ko": "오늘 조용히 떠올린 사람이나 날이 있나요?",
-    "status": "draft",
-    "posted_at": null
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
   },
   {
     "id": "n13",
@@ -918,7 +919,7 @@
     "kigo_ko": "단풍",
     "cover_ko": "다 보여 줘도 괜찮은 저녁",
     "commentary_ko": [
-      "팔랑이며 떨어지는 단풍이 앞뒤를 번갈아 보여 줍니다. 료칸이 세상을 떠나기 전 남긴 시로 전해집니다.",
+      "팔랑이며 떨어지는 단풍이 앞뒤를 번갈아 보여 줍니다. 료칸의 시로 널리 알려져 있으나 작가 귀속은 확인이 더 필요합니다.",
       "좋은 면도 못난 면도 그대로 내보이며 지는 모습이 담담합니다."
     ],
     "question_ko": "오늘 감추고 싶었던 나의 뒷면이 있었나요?",
@@ -1046,11 +1047,11 @@
     "kigo_ko": "이슬",
     "cover_ko": "덧없음을 알면서도 놓지 못하는 마음",
     "commentary_ko": [
-      "어린 딸을 잃은 뒤 잇사가 남긴 시로 알려져 있습니다. 세상이 덧없다는 걸 알면서도 '그렇다 해도' 하고 미련이 남는 마음이 담겼습니다.",
+      "자식을 잃은 뒤 잇사가 남긴 시로 알려져 있습니다. 세상이 덧없다는 걸 알면서도 '그렇다 해도' 하고 미련이 남는 마음이 담겼습니다.",
       "위로란 이유를 설명하는 것이 아니라 그 마음을 있는 그대로 두는 일인지 모릅니다."
     ],
     "question_ko": "'그렇다 해도' 하고 붙잡고 싶은 것이 있나요?",
-    "status": "draft",
+    "status": "approved",
     "posted_at": null
   },
   {
@@ -1061,8 +1062,8 @@
     "poet_ko": "마츠오 바쇼",
     "original": [
       "旅人と",
-      "我が名呼ばれん",
-      "初時雨"
+      "我名よばれん",
+      "初しぐれ"
     ],
     "romaji": [
       "Tabibito to",
@@ -1082,7 +1083,7 @@
       "이름이나 직함보다 지금 가는 사람이라는 한 줄이 위로가 될 때가 있습니다."
     ],
     "question_ko": "오늘 나는 어떤 이름으로 불리고 싶으신가요?",
-    "status": "draft",
+    "status": "approved",
     "posted_at": null
   },
   {
@@ -1146,7 +1147,7 @@
       "같이 있는 시간이 밤을 짧게 만드는 사이가 오래갑니다."
     ],
     "question_ko": "시간 가는 줄 모르고 이야기한 사람은 누구였나요?",
-    "status": "draft",
+    "status": "approved",
     "posted_at": null
   },
   {
@@ -1210,7 +1211,1984 @@
       "지친 마음을 비우면 바람도 희게 느껴질 것 같습니다."
     ],
     "question_ko": "오늘 마음을 맑게 한 것은 무엇이었나요?",
+    "status": "approved",
+    "posted_at": null
+  },
+  {
+    "id": "m01",
+    "season": "winter",
+    "theme": "이불 속 나른한 오후",
+    "poet_ja": "服部嵐雪",
+    "poet_ko": "핫토리 란세쓰",
+    "original": [
+      "蒲団着て",
+      "寝たる姿や",
+      "東山"
+    ],
+    "romaji": [
+      "Futon kite",
+      "netaru sugata ya",
+      "Higashiyama"
+    ],
+    "translation_ko": [
+      "이불을 덮고",
+      "누워 있는 모습이여",
+      "히가시야마"
+    ],
+    "kigo_ja": "蒲団",
+    "kigo_ko": "이불(겨울)",
+    "cover_ko": "같이 있으면 나른해져도 되는 사이",
+    "commentary_ko": [
+      "교토 동쪽에 길게 누운 히가시야마의 능선을 이불 덮고 잠든 사람처럼 그린 시입니다. 산을 의인화한 가벼운 장난기가 겨울 오후의 나른함과 어울립니다.",
+      "곁에서 같이 늘어져도 괜찮은 사이가 편한 사이지요."
+    ],
+    "question_ko": "아무 말 없이도 편한 사람은 누구인가요?",
     "status": "draft",
     "posted_at": null
+  },
+  {
+    "id": "m02",
+    "season": "winter",
+    "theme": "한 해를 잊는 자리",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "魚鳥の",
+      "心は知らず",
+      "年忘れ"
+    ],
+    "romaji": [
+      "Uotori no",
+      "kokoro wa shirazu",
+      "toshiwasure"
+    ],
+    "translation_ko": [
+      "물고기와 새의",
+      "마음은 알 수 없지만",
+      "망년회로구나"
+    ],
+    "kigo_ja": "年忘れ",
+    "kigo_ko": "망년회",
+    "cover_ko": "올해 일은 올해 자리에 두고 온 저녁",
+    "commentary_ko": [
+      "한 해의 고단함을 잊자고 모여 먹고 마시는 망년회 자리를 읊은 시로 전해집니다. 상 위의 것들 마음까지 헤아리진 못해도 지금은 흥에 몸을 맡기자는 가벼운 체념이 있습니다.",
+      "함께 잊어 주는 사람이 있어서 한 해가 끝납니다."
+    ],
+    "question_ko": "올해 같이 웃어 준 사람은 누구인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m03",
+    "season": "winter",
+    "theme": "찬바람에 퉁퉁 부은 얼굴",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "木枯らしや",
+      "頰腫痛む",
+      "人の顔"
+    ],
+    "romaji": [
+      "Kogarashi ya",
+      "hoobare itamu",
+      "hito no kao"
+    ],
+    "translation_ko": [
+      "초겨울 찬바람이여",
+      "볼이 부어 아파하는",
+      "사람의 얼굴"
+    ],
+    "kigo_ja": "木枯らし",
+    "kigo_ko": "초겨울 찬바람",
+    "cover_ko": "안쓰럽고 우스운 그 얼굴 하나",
+    "commentary_ko": [
+      "찬바람 속에 볼이 부어 끙끙대는 사람의 얼굴을 바라보는 바쇼의 시입니다. 안쓰러우면서 웃음이 나는 시선이 담겼습니다.",
+      "친구의 못난 얼굴까지 정다워 보이는 날이 있습니다."
+    ],
+    "question_ko": "친구의 웃긴 얼굴이 떠오르는 순간이 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m04",
+    "season": "autumn",
+    "theme": "먼저 떠난 이에게",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "塚も動け",
+      "我が泣く声は",
+      "秋の風"
+    ],
+    "romaji": [
+      "Tsuka mo ugoke",
+      "waga naku koe wa",
+      "aki no kaze"
+    ],
+    "translation_ko": [
+      "무덤이여 움직여라",
+      "내 우는 소리는",
+      "가을바람"
+    ],
+    "kigo_ja": "秋の風",
+    "kigo_ko": "가을바람",
+    "cover_ko": "소리 내어 울어도 되는 밤",
+    "commentary_ko": [
+      "먼저 세상을 떠난 젊은 하이진을 추모하는 자리에서 읊은 시로 전해집니다. 우는 소리가 바람 소리와 겹쳐 무덤마저 흔들 듯한 슬픔이 전해집니다.",
+      "슬픔은 참는 것이 아니라 소리 내어 흘려보내는 것이기도 합니다."
+    ],
+    "question_ko": "오늘 문득 그리운 사람이 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m05",
+    "season": "autumn",
+    "theme": "어디까지 갔을까",
+    "poet_ja": "加賀千代女",
+    "poet_ko": "가가노 지요조",
+    "original": [
+      "蜻蛉釣り",
+      "今日はどこまで",
+      "行ったやら"
+    ],
+    "romaji": [
+      "Tonbo tsuri",
+      "kyō wa doko made",
+      "ittayara"
+    ],
+    "translation_ko": [
+      "잠자리 잡으러 간 아이는",
+      "오늘은 어디까지",
+      "갔을까"
+    ],
+    "kigo_ja": "蜻蛉釣り",
+    "kigo_ko": "잠자리 잡기",
+    "cover_ko": "돌아오지 않는 아이를 기다리는 마음",
+    "commentary_ko": [
+      "잠자리를 잡으러 나간 아이를 기다리는 마음을 읊은 시로, 어린 아들을 먼저 떠나보낸 지요조의 심정이 담겼다는 해석이 널리 알려져 있습니다.",
+      "기다림과 그리움이 한 줄에 겹쳐 있습니다."
+    ],
+    "question_ko": "아무 일 없이 문득 떠오르는 그리운 장면이 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m06",
+    "season": "winter",
+    "theme": "강물에 떠내려가는 파",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "易水に",
+      "根深流るる",
+      "寒さかな"
+    ],
+    "romaji": [
+      "Ekisui ni",
+      "negi nagaruru",
+      "samusa kana"
+    ],
+    "translation_ko": [
+      "이수 강에",
+      "파가 떠내려가는",
+      "추위여"
+    ],
+    "kigo_ja": "寒さ",
+    "kigo_ko": "추위",
+    "cover_ko": "이별을 작은 사물 하나로 그린 한 줄",
+    "commentary_ko": [
+      "중국 고사에서 형가가 떠나며 건넜다는 이수에 파 한 줄기가 떠내려갑니다. 이별의 장면을 아주 작은 사물 하나로 그려 낸 부손의 시입니다.",
+      "큰 슬픔일수록 크게 말하지 않고 작게 보여 줄 때가 있습니다."
+    ],
+    "question_ko": "이별한 뒤 가장 먼저 눈에 들어온 것은 무엇이었나요?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "m07",
+    "season": "winter",
+    "theme": "눈 쌓이는 밤",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "初雪や",
+      "水仙の葉の",
+      "たわむまで"
+    ],
+    "romaji": [
+      "Hatsuyuki ya",
+      "suisen no ha no",
+      "tawamu made"
+    ],
+    "translation_ko": [
+      "첫눈이여",
+      "수선화 잎이",
+      "휠 만큼만"
+    ],
+    "kigo_ja": "初雪",
+    "kigo_ko": "첫눈",
+    "cover_ko": "수선화 잎이 살짝 휘어질 만큼의 눈",
+    "commentary_ko": [
+      "첫눈이 수선화 잎이 살짝 휠 만큼만 내렸습니다. 대설 무렵 눈이 많이 쌓이기 전에 가장 먼저 닿는 가벼운 무게를 그렸습니다.",
+      "작은 것이 감당할 만한 무게만 허락되는 밤이면 좋겠습니다."
+    ],
+    "question_ko": "오늘 밤 내 마음에 내려앉은 것은 무엇인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m08",
+    "season": "winter",
+    "theme": "돌아온 집",
+    "poet_ja": "小林一茶",
+    "poet_ko": "고바야시 잇사",
+    "original": [
+      "是がまあ",
+      "つひの栖か",
+      "雪五尺"
+    ],
+    "romaji": [
+      "Kore ga maa",
+      "tsui no sumika ka",
+      "yuki go shaku"
+    ],
+    "translation_ko": [
+      "이게 바로 그",
+      "마지막 안식처란 말인가",
+      "눈이 다섯 자"
+    ],
+    "kigo_ja": "雪",
+    "kigo_ko": "눈",
+    "cover_ko": "허탈하고도 안도되는 귀향",
+    "commentary_ko": [
+      "고향 시나노로 돌아온 잇사가 눈이 깊이 쌓인 집 앞에서 읊은 시로 전해집니다. 허탈함과 체념, 그래도 돌아왔다는 안도가 한데 섞여 있습니다.",
+      "돌아갈 곳이 있다는 것이 가장 큰 위로일 때가 있습니다."
+    ],
+    "question_ko": "어디로 돌아갔을 때 마음이 가장 놓이나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m09",
+    "season": "any",
+    "theme": "닫아건 문",
+    "poet_ja": "尾崎放哉",
+    "poet_ko": "오자키 호사이",
+    "original": [
+      "障子しめきつて",
+      "淋しさを",
+      "しめ出した"
+    ],
+    "romaji": [
+      "Shōji shimekitte",
+      "sabishisa wo",
+      "shimedashita"
+    ],
+    "translation_ko": [
+      "문을 꼭 닫아걸고",
+      "쓸쓸함을",
+      "밖으로 내쫓았다"
+    ],
+    "kigo_ja": "なし(自由律)",
+    "kigo_ko": "계절어 없음(자유율)",
+    "cover_ko": "쓸쓸함을 문밖으로 내보낸 저녁",
+    "commentary_ko": [
+      "호사이의 자유율 하이쿠로 알려진 시입니다. 쓸쓸함을 문밖으로 내보냈다고 하지만, 문 닫고 홀로 앉은 방의 고요가 오히려 더 크게 느껴집니다.",
+      "쓸쓸함은 쫓아내도 문 앞에 서 있을 때가 있습니다."
+    ],
+    "question_ko": "쓸쓸한 날, 나를 달래는 나만의 방법은 무엇인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m10",
+    "season": "winter",
+    "theme": "빈 그릇에 내린 싸락눈",
+    "poet_ja": "種田山頭火",
+    "poet_ko": "다네다 산토카",
+    "original": [
+      "鉄鉢の",
+      "中へも",
+      "霰"
+    ],
+    "romaji": [
+      "Tetsubachi no",
+      "naka e mo",
+      "arare"
+    ],
+    "translation_ko": [
+      "쇠 밥그릇 안으로도",
+      "들어오는",
+      "싸락눈"
+    ],
+    "kigo_ja": "霰",
+    "kigo_ko": "싸락눈",
+    "cover_ko": "가진 것 없이도 받는 마음",
+    "commentary_ko": [
+      "탁발하는 쇠그릇 안으로까지 싸락눈이 떨어집니다. 산토카는 떠돌며 얻어먹던 시인으로, 가진 것 없이도 주어지는 것을 받아들이는 태도가 보입니다.",
+      "차가운 것도 내게 닿으면 하나의 선물처럼 읽힙니다."
+    ],
+    "question_ko": "오늘 하루 작게 받은 것은 무엇이었나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m11",
+    "season": "any",
+    "theme": "끝없이 이어지는 산길",
+    "poet_ja": "種田山頭火",
+    "poet_ko": "다네다 산토카",
+    "original": [
+      "分け入つても",
+      "分け入つても",
+      "青い山"
+    ],
+    "romaji": [
+      "Wake itte mo",
+      "wake itte mo",
+      "aoi yama"
+    ],
+    "translation_ko": [
+      "헤치고 들어가도",
+      "헤치고 들어가도",
+      "푸른 산"
+    ],
+    "kigo_ja": "なし(自由律)",
+    "kigo_ko": "계절어 없음(자유율)",
+    "cover_ko": "가도 가도 끝이 안 보여도 걷는다",
+    "commentary_ko": [
+      "산토카의 대표작으로 알려진 자유율 시입니다. 가도 가도 끝나지 않는 산이 지금 걷는 길과 닮았지만, 그래도 계속 들어가겠다는 걸음이 느껴집니다.",
+      "끝이 안 보이는 날에도 걸음은 이미 와 있는 길의 증거입니다."
+    ],
+    "question_ko": "끝이 안 보이는데 계속 가고 있는 일이 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m12",
+    "season": "winter",
+    "theme": "추운 도읍의 작은 꽃",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "水仙や",
+      "寒き都の",
+      "ここかしこ"
+    ],
+    "romaji": [
+      "Suisen ya",
+      "samuki miyako no",
+      "koko kashiko"
+    ],
+    "translation_ko": [
+      "수선화여",
+      "추운 도읍의",
+      "여기저기"
+    ],
+    "kigo_ja": "水仙",
+    "kigo_ko": "수선화",
+    "cover_ko": "추워도 피는 것들이 있다",
+    "commentary_ko": [
+      "추운 겨울 도읍 곳곳에서 수선화가 피어 있다는 시입니다. 눈에 띄지 않는 곳에서 작게 피어나는 것들에 눈길을 줍니다.",
+      "추위가 깊을수록 피는 것의 값이 커집니다."
+    ],
+    "question_ko": "요즘 내 주변에서 조용히 피어나는 것은 무엇인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m13",
+    "season": "winter",
+    "theme": "싸락눈 속의 늙은 나무",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "霰聞くや",
+      "この身はもとの",
+      "古柏"
+    ],
+    "romaji": [
+      "Arare kiku ya",
+      "kono mi wa moto no",
+      "furukashiwa"
+    ],
+    "translation_ko": [
+      "싸락눈 소리를 듣는다",
+      "이 몸은 예전 그대로의",
+      "늙은 떡갈나무"
+    ],
+    "kigo_ja": "霰",
+    "kigo_ko": "싸락눈",
+    "cover_ko": "흔들려도 그 자리에 서 있는 마음",
+    "commentary_ko": [
+      "싸락눈이 후드득 떨어져도 오래된 떡갈나무처럼 그 자리에서 버티는 마음을 읊은 시로 알려져 있습니다. 해석에는 여러 설이 있습니다.",
+      "다시 일어난다는 것은 새로워지는 것만이 아니라 그 자리에 다시 서는 일이기도 합니다."
+    ],
+    "question_ko": "흔들려도 지키고 싶은 나의 자리는 어디인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m14",
+    "season": "winter",
+    "theme": "불을 지펴 놓고 기다리는 마음",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "君火をたけ",
+      "よき物見せん",
+      "雪丸げ"
+    ],
+    "romaji": [
+      "Kimi hi wo take",
+      "yoki mono misen",
+      "yuki maroge"
+    ],
+    "translation_ko": [
+      "그대는 불을 지펴 주게",
+      "좋은 것을 보여 주리니",
+      "눈덩이 굴리기"
+    ],
+    "kigo_ja": "雪丸げ",
+    "kigo_ko": "눈덩이 굴리기",
+    "cover_ko": "불 피워 주는 사람이 곁에 있다는 것",
+    "commentary_ko": [
+      "불을 지피며 기다려 달라고 하고는 눈덩이를 굴리러 가는 바쇼의 장난기 어린 시입니다. 추운 날 곁에 불을 피워 주는 사람이 있다는 것만으로 이미 안아 주는 일입니다.",
+      "허그는 팔이 아니라 기다려 주는 마음에서 시작되기도 합니다."
+    ],
+    "question_ko": "오늘 누구를 따뜻하게 안아 주고 싶으세요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m15",
+    "season": "winter",
+    "theme": "겨울비를 다르게 보는 법",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "面白し",
+      "雪にやならん",
+      "冬の雨"
+    ],
+    "romaji": [
+      "Omoshiroshi",
+      "yuki ni ya naran",
+      "fuyu no ame"
+    ],
+    "translation_ko": [
+      "재미있구나",
+      "눈이 되려나",
+      "겨울비"
+    ],
+    "kigo_ja": "冬の雨",
+    "kigo_ko": "겨울비",
+    "cover_ko": "차가운 비를 기대로 바꾸는 시선",
+    "commentary_ko": [
+      "차가운 겨울비를 맞으면서도 눈이 되려나 하고 기대하는 시선이 담겼습니다. 같은 비도 어떻게 바라보느냐에 따라 달라집니다.",
+      "힘든 날 시선 하나를 바꾸는 것도 용기입니다."
+    ],
+    "question_ko": "오늘 힘들었던 일을 다르게 바라본다면 어떻게 보일까요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m16",
+    "season": "winter",
+    "theme": "눈 오는 아침의 말",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "馬をさへ",
+      "ながむる雪の",
+      "朝かな"
+    ],
+    "romaji": [
+      "Uma wo sae",
+      "nagamuru yuki no",
+      "asa kana"
+    ],
+    "translation_ko": [
+      "말조차도",
+      "물끄러미 바라보게 되는",
+      "눈 내린 아침"
+    ],
+    "kigo_ja": "雪",
+    "kigo_ko": "눈",
+    "cover_ko": "익숙한 것이 새로 보이는 아침",
+    "commentary_ko": [
+      "평소엔 눈여겨보지 않던 말(馬)까지 새삼스럽게 바라보게 되는 눈 오는 아침입니다. 풍경이 바뀌면 지나치던 것도 다시 보입니다.",
+      "다시 일어서는 힘은 새로운 것이 아니라 새로 보는 눈에서 나오기도 합니다."
+    ],
+    "question_ko": "오늘 아침 새삼 눈에 들어온 것은 무엇이었나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m17",
+    "season": "any",
+    "theme": "흐려진 물이 맑아질 때까지",
+    "poet_ja": "種田山頭火",
+    "poet_ko": "다네다 산토카",
+    "original": [
+      "濁れる水の",
+      "流れつつ",
+      "澄む"
+    ],
+    "romaji": [
+      "Nigoreru mizu no",
+      "nagaretsutsu",
+      "sumu"
+    ],
+    "translation_ko": [
+      "흐려진 물도",
+      "흘러가며",
+      "맑아진다"
+    ],
+    "kigo_ja": "なし(自由律)",
+    "kigo_ko": "계절어 없음(자유율)",
+    "cover_ko": "멈추지 않으면 맑아진다",
+    "commentary_ko": [
+      "산토카의 자유율 시로 알려져 있습니다. 흐린 물도 멈추지 않고 흐르는 동안 스스로 맑아집니다. 다시 일어서는 일에 대한 담담한 응원처럼 읽힙니다.",
+      "흘러가는 것만으로 해결되는 일도 있습니다."
+    ],
+    "question_ko": "흘러가는 동안 맑아진 일이 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m18",
+    "season": "autumn",
+    "theme": "혼자 보는 달",
+    "poet_ja": "尾崎放哉",
+    "poet_ko": "오자키 호사이",
+    "original": [
+      "こんなよい月を",
+      "一人で見て",
+      "寝る"
+    ],
+    "romaji": [
+      "Konna yoi tsuki wo",
+      "hitori de mite",
+      "neru"
+    ],
+    "translation_ko": [
+      "이렇게 좋은 달을",
+      "혼자 보고",
+      "잔다"
+    ],
+    "kigo_ja": "月",
+    "kigo_ko": "달",
+    "cover_ko": "좋은 걸 같이 볼 사람이 없는 밤",
+    "commentary_ko": [
+      "호사이의 자유율 하이쿠로 알려져 있습니다. 좋은 달을 함께 볼 사람이 없다는 아쉬움과, 그래도 혼자 충분히 보았다는 만족이 함께 있습니다.",
+      "혼자인 밤에도 좋은 것은 좋다고 말할 수 있습니다."
+    ],
+    "question_ko": "좋은 걸 보면 누구에게 가장 먼저 알리고 싶으세요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m19",
+    "season": "any",
+    "theme": "굵은 뼈만 남아도",
+    "poet_ja": "尾崎放哉",
+    "poet_ko": "오자키 호사이",
+    "original": [
+      "肉がやせてくる",
+      "太い骨で",
+      "ある"
+    ],
+    "romaji": [
+      "Niku ga yasete kuru",
+      "futoi hone de",
+      "aru"
+    ],
+    "translation_ko": [
+      "살이 빠져 간다",
+      "굵은 뼈로",
+      "남았다"
+    ],
+    "kigo_ja": "なし(自由律)",
+    "kigo_ko": "계절어 없음(자유율)",
+    "cover_ko": "줄어도 단단하게 남는 것",
+    "commentary_ko": [
+      "병들어 가던 시기에 지은 것으로 알려진 호사이의 자유율 시입니다. 줄어드는 몸과 남은 굵은 뼈를 담담하게 바라보는 시선이 담겼습니다.",
+      "나이 들수록 겉은 줄어도 중심은 오히려 굵어진다고 읽을 수 있습니다."
+    ],
+    "question_ko": "나이 들어 오히려 단단해졌다고 느끼는 것이 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m20",
+    "season": "summer",
+    "theme": "혼자 쓰기엔 넓은 모기장",
+    "poet_ja": "加賀千代女",
+    "poet_ko": "가가노 지요조",
+    "original": [
+      "起きて見つ",
+      "寝て見つ蚊帳の",
+      "広さかな"
+    ],
+    "romaji": [
+      "Okite mitsu",
+      "nete mitsu kaya no",
+      "hirosa kana"
+    ],
+    "translation_ko": [
+      "일어나서 봐도",
+      "누워서 봐도 모기장이",
+      "넓기도 하구나"
+    ],
+    "kigo_ja": "蚊帳",
+    "kigo_ko": "모기장(여름)",
+    "cover_ko": "혼자가 되니 공간이 넓어졌다",
+    "commentary_ko": [
+      "혼자 남은 이가 넓은 모기장을 바라보는 시로, 지요조의 외로움을 읽는 해석이 있으나 이설도 있습니다. 비어 있는 자리가 오히려 크게 느껴집니다.",
+      "있던 것이 없어졌을 때 공간은 더 넓어 보입니다."
+    ],
+    "question_ko": "혼자가 되어서 오히려 크게 느껴지는 공간이 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m21",
+    "season": "any",
+    "theme": "내려놓지 못한 짐",
+    "poet_ja": "種田山頭火",
+    "poet_ko": "다네다 산토카",
+    "original": [
+      "捨てきれない",
+      "荷物のおもさ",
+      "まへうしろ"
+    ],
+    "romaji": [
+      "Sute kirenai",
+      "nimotsu no omosa",
+      "mae ushiro"
+    ],
+    "translation_ko": [
+      "버리지 못하는",
+      "짐의 무게",
+      "앞에도 뒤에도"
+    ],
+    "kigo_ja": "なし(自由律)",
+    "kigo_ko": "계절어 없음(자유율)",
+    "cover_ko": "앞에도 뒤에도 매달린 짐",
+    "commentary_ko": [
+      "산토카가 떠도는 길에서 지은 것으로 알려진 자유율 시입니다. 짐은 등과 가슴 앞뒤로 매달려 있고, 마음의 짐도 그만큼 무겁다고 읽을 수 있습니다.",
+      "버리지 못한 짐도 나를 여기까지 데려온 것일지 모릅니다."
+    ],
+    "question_ko": "도저히 못 내려놓는 짐 하나를 꼽는다면 무엇인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m22",
+    "season": "winter",
+    "theme": "가장 긴 밤의 고타쓰",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "住みつかぬ",
+      "旅の心や",
+      "置炬燵"
+    ],
+    "romaji": [
+      "Sumitsukanu",
+      "tabi no kokoro ya",
+      "okigotatsu"
+    ],
+    "translation_ko": [
+      "한곳에 자리 잡지 못하는",
+      "나그네 마음이여",
+      "이동식 고타쓰"
+    ],
+    "kigo_ja": "置炬燵",
+    "kigo_ko": "이동식 고타쓰",
+    "cover_ko": "따뜻해도 마음은 떠도는 밤",
+    "commentary_ko": [
+      "가장 긴 밤, 따뜻한 고타쓰 곁에 앉아 있어도 마음은 한곳에 머물지 못한다는 시로 전해집니다. 몸은 따뜻하지만 마음은 어디로 가는지 모르는 밤입니다.",
+      "긴 밤에는 마음도 길게 헤매도 괜찮습니다."
+    ],
+    "question_ko": "가장 긴 밤, 내 마음은 어디를 떠돌고 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m23",
+    "season": "winter",
+    "theme": "젖어 가는 뒷모습",
+    "poet_ja": "種田山頭火",
+    "poet_ko": "다네다 산토카",
+    "original": [
+      "うしろすがたの",
+      "しぐれてゆくか"
+    ],
+    "romaji": [
+      "Ushiro sugata no",
+      "shigurete yuku ka"
+    ],
+    "translation_ko": [
+      "뒷모습이",
+      "비에 젖어 가는구나"
+    ],
+    "kigo_ja": "しぐれ",
+    "kigo_ko": "늦가을 지나가는 비",
+    "cover_ko": "퇴근길, 내 뒷모습은 어떨까",
+    "commentary_ko": [
+      "산토카의 자유율 시로, 자기 뒷모습이 비에 젖어 가는 것을 바라보는 것처럼 읽힙니다. 앞모습은 꾸며도 뒷모습은 숨기지 못하는 쓸쓸함이 겹칩니다.",
+      "누군가 내 뒷모습을 본다면 무엇을 읽을까요."
+    ],
+    "question_ko": "오늘 퇴근길, 내 뒷모습은 어떻게 보였을까요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m24",
+    "season": "winter",
+    "theme": "섣달 장터의 까마귀",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "何に此",
+      "師走の市に",
+      "行く烏"
+    ],
+    "romaji": [
+      "Nani ni kono",
+      "shiwasu no ichi ni",
+      "yuku karasu"
+    ],
+    "translation_ko": [
+      "무엇을 하러 이",
+      "섣달 장터에",
+      "가는 까마귀냐"
+    ],
+    "kigo_ja": "師走",
+    "kigo_ko": "섣달",
+    "cover_ko": "들뜬 거리에서 홀로 다른 속도로",
+    "commentary_ko": [
+      "한 해 끝의 붐비는 장터로 날아가는 까마귀 한 마리를 보며 '너는 무슨 일로?' 하고 묻는 바쇼의 시로 전해집니다. 들뜬 풍경 속 다른 속도로 움직이는 존재를 향한 다정한 시선입니다.",
+      "들뜬 거리에서 조용한 사람도 거리의 한 풍경입니다."
+    ],
+    "question_ko": "들뜬 거리에서 나는 어떤 속도로 걷고 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m25",
+    "season": "any",
+    "theme": "두 손으로 받는 선물",
+    "poet_ja": "尾崎放哉",
+    "poet_ko": "오자키 호사이",
+    "original": [
+      "入れものがない",
+      "両手で",
+      "受ける"
+    ],
+    "romaji": [
+      "Irimono ga nai",
+      "ryōte de",
+      "ukeru"
+    ],
+    "translation_ko": [
+      "담을 그릇이 없어서",
+      "두 손으로",
+      "받는다"
+    ],
+    "kigo_ja": "なし(自由律)",
+    "kigo_ko": "계절어 없음(자유율)",
+    "cover_ko": "그릇이 없어 두 손으로 받았다",
+    "commentary_ko": [
+      "호사이의 자유율 시로, 그릇이 없어 두 손을 오므려 받는 모습을 그립니다. 선물을 받을 때 가장 진심인 자세가 두 손이라는 생각이 듭니다.",
+      "선물이 되는 하루는 받는 사람이 두 손을 내밀 때 시작됩니다."
+    ],
+    "question_ko": "올해 두 손으로 받은 가장 고마운 것은 무엇인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m26",
+    "season": "autumn",
+    "theme": "문종이 구멍으로 본 은하수",
+    "poet_ja": "小林一茶",
+    "poet_ko": "고바야시 잇사",
+    "original": [
+      "うつくしや",
+      "障子の穴の",
+      "天の川"
+    ],
+    "romaji": [
+      "Utsukushi ya",
+      "shōji no ana no",
+      "ama no gawa"
+    ],
+    "translation_ko": [
+      "아름답구나",
+      "문종이 구멍으로 보이는",
+      "은하수"
+    ],
+    "kigo_ja": "天の川",
+    "kigo_ko": "은하수",
+    "cover_ko": "부족해서 오히려 보인 하늘",
+    "commentary_ko": [
+      "가난한 집 문종이의 구멍으로 보이는 은하수를 보고 읊은 잇사의 시로 전해집니다. 구멍 난 문이 오히려 하늘을 보여 준 셈입니다.",
+      "부족함이 열어 준 풍경에 고마워지는 때가 있습니다."
+    ],
+    "question_ko": "부족해서 오히려 보게 된 것이 있나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m27",
+    "season": "winter",
+    "theme": "즐기다 보니 저문 한 해",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "月雪と",
+      "のさばりけらし",
+      "年の暮"
+    ],
+    "romaji": [
+      "Tsuki yuki to",
+      "nosabarikerashi",
+      "toshi no kure"
+    ],
+    "translation_ko": [
+      "달이다 눈이다 하며",
+      "마음껏 즐기다 보니",
+      "한 해가 저문다"
+    ],
+    "kigo_ja": "年の暮",
+    "kigo_ko": "한 해의 끝",
+    "cover_ko": "바빴다기보다 즐기다 보니 간 한 해",
+    "commentary_ko": [
+      "달과 눈을 마음껏 즐기다 보니 한 해가 다 갔다는 바쇼의 시로 전해집니다. 바쁘게 산 게 아니라 풍경에 마음을 두었다는 돌아봄이 여유롭습니다.",
+      "한 해의 끝에서 무엇을 즐겼는지 세어 보면 충분한 해일 수 있습니다."
+    ],
+    "question_ko": "올해 가장 마음껏 즐긴 순간은 언제였나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m28",
+    "season": "winter",
+    "theme": "살짝 취한 낙엽 소리",
+    "poet_ja": "種田山頭火",
+    "poet_ko": "다네다 산토카",
+    "original": [
+      "ほろほろ酔うて",
+      "木の葉ふる"
+    ],
+    "romaji": [
+      "Horohoro yōte",
+      "konoha furu"
+    ],
+    "translation_ko": [
+      "알딸딸하게 취했는데",
+      "낙엽이 진다"
+    ],
+    "kigo_ja": "木の葉",
+    "kigo_ko": "낙엽(겨울)",
+    "cover_ko": "한 잔에 마음이 풀린 날",
+    "commentary_ko": [
+      "산토카의 자유율 시로 알려져 있습니다. 한 잔에 마음이 풀린 날 낙엽 지는 소리까지 정겹게 들립니다.",
+      "올해를 돌아보며 가볍게 건배하고 싶은 저녁과 닮았습니다."
+    ],
+    "question_ko": "올해를 돌아보며 가볍게 건배하고 싶은 일은 무엇인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m29",
+    "season": "any",
+    "theme": "발바닥이 하얘지도록",
+    "poet_ja": "尾崎放哉",
+    "poet_ko": "오자키 호사이",
+    "original": [
+      "足のうら",
+      "洗へば",
+      "白くなる"
+    ],
+    "romaji": [
+      "Ashi no ura",
+      "araeba",
+      "shiroku naru"
+    ],
+    "translation_ko": [
+      "발바닥을",
+      "씻으니",
+      "하얘진다"
+    ],
+    "kigo_ja": "なし(自由律)",
+    "kigo_ko": "계절어 없음(자유율)",
+    "cover_ko": "하루의 먼지를 씻어 낸 발",
+    "commentary_ko": [
+      "호사이의 자유율 시로 알려져 있습니다. 하루 종일 걸어 더러워진 발바닥이 씻으면 하얘진다는 소박한 관찰입니다.",
+      "한 해의 먼지도 이렇게 씻겨 내려가길 바라게 됩니다."
+    ],
+    "question_ko": "올해 가장 많이 걸어온 길은 어디였나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m30",
+    "season": "winter",
+    "theme": "길 위에서 저무는 한 해",
+    "poet_ja": "松尾芭蕉",
+    "poet_ko": "마츠오 바쇼",
+    "original": [
+      "年暮れぬ",
+      "笠きて草鞋",
+      "はきながら"
+    ],
+    "romaji": [
+      "Toshi kurenu",
+      "kasa kite waraji",
+      "hakinagara"
+    ],
+    "translation_ko": [
+      "한 해가 저문다",
+      "삿갓 쓰고 짚신 신은",
+      "채로"
+    ],
+    "kigo_ja": "年暮れぬ",
+    "kigo_ko": "한 해가 저물다",
+    "cover_ko": "집이 아니라 길 위에서 맞는 연말",
+    "commentary_ko": [
+      "바쇼가 여행 중에 한 해를 보낸 시로 알려져 있습니다. 집이 아니라 길 위에서 한 해가 저물어도, 삿갓과 짚신 그대로가 바쇼다운 마무리입니다.",
+      "올해의 끝에서 나는 어디쯤 서 있는지 돌아보게 합니다."
+    ],
+    "question_ko": "올해 나는 길 위에 있었나요, 집에 있었나요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "m31",
+    "season": "winter",
+    "theme": "올해의 나에게",
+    "poet_ja": "小林一茶",
+    "poet_ko": "고바야시 잇사",
+    "original": [
+      "ともかくも",
+      "あなたまかせの",
+      "年の暮"
+    ],
+    "romaji": [
+      "Tomokaku mo",
+      "anata makase no",
+      "toshi no kure"
+    ],
+    "translation_ko": [
+      "어쨌든",
+      "모든 걸 맡긴 채로",
+      "맞는 한 해의 끝"
+    ],
+    "kigo_ja": "年の暮",
+    "kigo_ko": "한 해의 끝",
+    "cover_ko": "애쓸 만큼 썼으니 이제 맡기자",
+    "commentary_ko": [
+      "잇사가 한 해를 정리한 글 『오라가 하루』의 끝에 놓인 시로 알려져 있습니다. 아미타불에게 모든 것을 맡긴다는 뜻으로, 애쓸 만큼 애쓴 뒤의 내려놓음이 담겼습니다.",
+      "올해의 나에게 고생했다고 말할 차례입니다."
+    ],
+    "question_ko": "올해의 나에게 한마디 건넨다면 무엇인가요?",
+    "status": "draft",
+    "posted_at": null
+  },
+  {
+    "id": "d01",
+    "season": "winter",
+    "theme": "나른한 오후의 이불",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "あたまから",
+      "蒲団かぶれば",
+      "海鼠かな"
+    ],
+    "romaji": [
+      "Atama kara",
+      "futon kabureba",
+      "namako kana"
+    ],
+    "translation_ko": [
+      "머리부터",
+      "이불을 뒤집어쓰니",
+      "해삼이로구나"
+    ],
+    "kigo_ja": "蒲団",
+    "kigo_ko": "이불",
+    "cover_ko": "점심 뒤, 이대로 해삼이 되고 싶은 오후",
+    "commentary_ko": [
+      "이불을 머리끝까지 뒤집어쓴 모습이 몸을 웅크린 해삼 같다는 부손의 익살입니다. 따뜻함을 향한 몸의 본능이 웃음이 됩니다.",
+      "졸음이 쏟아지는 오후에는 잠깐 해삼이 되어도 괜찮다고 시가 말해 줍니다."
+    ],
+    "question_ko": "오늘 오후, 가장 웅크리고 싶은 순간은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d02",
+    "season": "winter",
+    "theme": "회의가 끝난 뒤",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "寒月や",
+      "衆徒の群議の",
+      "過ぎて後"
+    ],
+    "romaji": [
+      "Kangetsu ya",
+      "shuto no gungi no",
+      "sugite nochi"
+    ],
+    "translation_ko": [
+      "겨울 달이여",
+      "승려들의 회의가",
+      "지나간 뒤"
+    ],
+    "kigo_ja": "寒月",
+    "kigo_ko": "겨울 달",
+    "cover_ko": "회의가 끝난 뒤의 고요가 좋은 퇴근길",
+    "commentary_ko": [
+      "승려들의 긴 논의가 끝난 뒤, 남은 것은 차가운 달빛뿐이라는 구입니다. 소란이 지나간 자리에 고요와 달만 남습니다.",
+      "하루의 소음이 빠져나가야 비로소 달이 보이는 법입니다."
+    ],
+    "question_ko": "오늘 소란이 끝난 뒤 가장 먼저 든 마음은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d03",
+    "season": "winter",
+    "theme": "이웃의 소리",
+    "poet_ja": "正岡子規",
+    "poet_ko": "마사오카 시키",
+    "original": [
+      "埋火や",
+      "隣の咄",
+      "聞てゐる"
+    ],
+    "romaji": [
+      "Uzumibi ya",
+      "tonari no hanashi",
+      "kiite iru"
+    ],
+    "translation_ko": [
+      "묻어 둔 숯불이여",
+      "이웃의 이야기를",
+      "듣고 있다"
+    ],
+    "kigo_ja": "埋火",
+    "kigo_ko": "묻어 둔 숯불",
+    "cover_ko": "벽 너머 이웃의 말소리가 정겨운 저녁",
+    "commentary_ko": [
+      "재 속에 묻어 둔 불 곁에서 벽 너머 이웃의 이야기를 듣고 있는 구입니다. 내용은 몰라도 사람 사는 소리가 겨울밤을 덜 외롭게 합니다.",
+      "따뜻한 차 한 잔 곁에서 듣는 생활의 소리가 그렇습니다."
+    ],
+    "question_ko": "요즘 들으면 마음이 놓이는 생활 소리는?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:寒山落木 巻一(card1896)"
+  },
+  {
+    "id": "d04",
+    "season": "winter",
+    "theme": "금요일 밤의 고타쓰",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "宿かへて",
+      "火燵嬉しき",
+      "在処"
+    ],
+    "romaji": [
+      "Yado kaete",
+      "kotatsu ureshiki",
+      "arika"
+    ],
+    "translation_ko": [
+      "숙소를 바꾸니",
+      "고타쓰가 반가운",
+      "그런 곳이다"
+    ],
+    "kigo_ja": "火燵",
+    "kigo_ko": "고타쓰",
+    "cover_ko": "한 주를 보낸 몸이 고타쓰 앞에 닿은 밤",
+    "commentary_ko": [
+      "머물 곳을 옮겼더니 고타쓰가 있어 마음이 놓인다는 구입니다. 장소가 달라져도 따뜻한 한 칸만 있으면 쉴 자리가 됩니다.",
+      "금요일 밤, 한 주를 끝낸 몸이 가장 바라는 것도 그런 한 칸입니다."
+    ],
+    "question_ko": "이번 주 나를 가장 쉬게 해 준 장소는?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d05",
+    "season": "winter",
+    "theme": "돌아가는 산책길",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "茶の花や",
+      "石をめぐりて",
+      "道を取る"
+    ],
+    "romaji": [
+      "Cha no hana ya",
+      "ishi wo megurite",
+      "michi wo toru"
+    ],
+    "translation_ko": [
+      "차꽃이여",
+      "돌을 돌아",
+      "길을 잡는다"
+    ],
+    "kigo_ja": "茶の花",
+    "kigo_ko": "차꽃",
+    "cover_ko": "느긋한 주말 아침, 돌을 돌아가는 길",
+    "commentary_ko": [
+      "차나무 꽃이 핀 길에서 돌을 비켜 돌아 걷는 구입니다. 서두르지 않는 걸음이어서 작은 꽃도 눈에 들어옵니다.",
+      "주말 아침에는 일부러 돌아가는 길을 골라도 됩니다."
+    ],
+    "question_ko": "오늘 일부러 돌아가 보고 싶은 길은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d06",
+    "season": "winter",
+    "theme": "잠 못 드는 밤",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "我をいとふ",
+      "隣家寒夜に",
+      "鍋をならす"
+    ],
+    "romaji": [
+      "Ware wo itou",
+      "rinka kanya ni",
+      "nabe wo narasu"
+    ],
+    "translation_ko": [
+      "나를 싫어하는",
+      "이웃집이 추운 밤",
+      "냄비를 울린다"
+    ],
+    "kigo_ja": "寒夜",
+    "kigo_ko": "추운 밤",
+    "cover_ko": "잠 못 드는 밤, 벽 너머의 달그락 소리",
+    "commentary_ko": [
+      "나를 탐탁지 않아 하는 이웃집이 추운 밤에 냄비 소리를 낸다는 구입니다. 미운 마음도 겨울밤의 소리 하나로 지나갑니다.",
+      "잠이 안 오는 밤의 작은 소리는 대개 아침이 오면 작아집니다."
+    ],
+    "question_ko": "잠 못 드는 밤, 머릿속을 맴도는 소리는?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d07",
+    "season": "winter",
+    "theme": "대설, 눈 속의 출근길",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "鍋提げて",
+      "淀の小橋を",
+      "雪の人"
+    ],
+    "romaji": [
+      "Nabe sagete",
+      "Yodo no kobashi wo",
+      "yuki no hito"
+    ],
+    "translation_ko": [
+      "냄비를 들고",
+      "요도의 작은 다리를 건너는",
+      "눈 속의 사람"
+    ],
+    "kigo_ja": "雪",
+    "kigo_ko": "눈",
+    "cover_ko": "눈 오는 출근길, 냄비를 든 사람",
+    "commentary_ko": [
+      "눈 내리는 요도 강의 작은 다리를 냄비를 든 사람이 건너갑니다. 대설 무렵, 눈 속에서 저마다 제 몫의 하루를 들고 가는 모습입니다.",
+      "월요일 출근길도 손에 든 하루 하나씩을 지고 건너는 다리입니다."
+    ],
+    "question_ko": "오늘 내 손에 들린 하루는 무엇인가요?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d08",
+    "season": "winter",
+    "theme": "시든 들판의 생기",
+    "poet_ja": "正岡子規",
+    "poet_ko": "마사오카 시키",
+    "original": [
+      "冬かれや",
+      "田舍娘の",
+      "うつくしき"
+    ],
+    "romaji": [
+      "Fuyugare ya",
+      "inaka musume no",
+      "utsukushiki"
+    ],
+    "translation_ko": [
+      "겨울 시든 들판이여",
+      "시골 처녀가",
+      "아름답구나"
+    ],
+    "kigo_ja": "冬枯",
+    "kigo_ko": "겨울 시듦",
+    "cover_ko": "점심 뒤, 시든 풍경 속에서 눈에 들어온 것",
+    "commentary_ko": [
+      "잎이 지고 누렇게 마른 겨울 들판에서 시골 처녀가 더 곱게 보인다는 시키의 구입니다. 쓸쓸한 배경 덕에 생기가 또렷해집니다.",
+      "무채색 풍경 속에서 눈길을 붙드는 것을 찾아보세요."
+    ],
+    "question_ko": "오늘 무채색 풍경 속에서 눈에 띈 것은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:寒山落木 巻一(card1896)"
+  },
+  {
+    "id": "d09",
+    "season": "winter",
+    "theme": "빌려준 우산",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "化さうな",
+      "傘かす寺の",
+      "時雨かな"
+    ],
+    "romaji": [
+      "Bakesō na",
+      "kasa kasu tera no",
+      "shigure kana"
+    ],
+    "translation_ko": [
+      "도깨비로 둔갑할 듯한",
+      "우산을 빌려주는 절의",
+      "늦가을 비"
+    ],
+    "kigo_ja": "時雨",
+    "kigo_ko": "시구레(지나가는 차가운 비)",
+    "cover_ko": "비 오는 퇴근길, 낡은 우산 하나",
+    "commentary_ko": [
+      "낡아서 금방이라도 둔갑할 것 같은 우산을 절에서 빌려주는 장면입니다. 차가운 비 속에서 받은 소박한 호의가 웃음을 짓게 합니다.",
+      "퇴근길에 건네받은 작은 호의는 오래 기억됩니다."
+    ],
+    "question_ko": "최근 누군가에게 받은 작은 호의는?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d10",
+    "season": "winter",
+    "theme": "작은 두건",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "緑子の",
+      "頭巾眉深き",
+      "いとほしみ"
+    ],
+    "romaji": [
+      "Midoriko no",
+      "zukin mabukaki",
+      "itoshimi"
+    ],
+    "translation_ko": [
+      "아기의",
+      "두건이 눈썹까지 깊은",
+      "사랑스러움"
+    ],
+    "kigo_ja": "頭巾",
+    "kigo_ko": "두건",
+    "cover_ko": "혼자 마시는 차 한 잔, 작은 두건이 떠오르는 저녁",
+    "commentary_ko": [
+      "눈썹까지 푹 눌러쓴 아기의 두건을 보며 사랑스러워하는 구입니다. 작은 것에 마음이 녹는 순간이 겨울 저녁의 온도를 올립니다.",
+      "차 한 잔을 손에 쥐고 떠올리는 작은 장면 하나면 충분합니다."
+    ],
+    "question_ko": "떠올리면 마음이 녹는 작은 장면은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d11",
+    "season": "winter",
+    "theme": "금요일 밤의 이웃",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "薬喰",
+      "隣の亭主",
+      "箸持参"
+    ],
+    "romaji": [
+      "Kusurigui",
+      "tonari no teishu",
+      "hashi jisan"
+    ],
+    "translation_ko": [
+      "약 삼아 먹는 고기",
+      "이웃집 주인이",
+      "젓가락을 들고 왔다"
+    ],
+    "kigo_ja": "薬喰",
+    "kigo_ko": "약식(겨울 보양 고기)",
+    "cover_ko": "금요일 밤, 이웃이 젓가락을 들고 찾아온다",
+    "commentary_ko": [
+      "겨울 보양식 자리에 이웃집 주인이 젓가락까지 챙겨 왔다는 익살입니다. 염치없는 듯하지만 밉지 않은 정이 느껴집니다.",
+      "한 주를 보낸 금요일 밤에는 이런 뻔뻔한 이웃 한 명쯤 있어도 좋겠습니다."
+    ],
+    "question_ko": "금요일 밤 불쑥 찾아와도 반가운 사람은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d12",
+    "season": "winter",
+    "theme": "강 위의 살림",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "水鳥や",
+      "舟に菜を洗ふ",
+      "女あり"
+    ],
+    "romaji": [
+      "Mizudori ya",
+      "fune ni na wo arau",
+      "onna ari"
+    ],
+    "translation_ko": [
+      "물새여",
+      "배 위에서 채소를 씻는",
+      "여인이 있다"
+    ],
+    "kigo_ja": "水鳥",
+    "kigo_ko": "물새",
+    "cover_ko": "느긋한 주말 아침, 강 위의 소소한 살림",
+    "commentary_ko": [
+      "물새가 떠 있는 강에서 배 위의 여인이 채소를 씻고 있습니다. 차가운 물에서도 일상은 이어지고 그 곁을 물새가 지킵니다.",
+      "주말 아침의 평온은 이렇게 소박한 살림에서 옵니다."
+    ],
+    "question_ko": "주말 아침 나만의 소소한 일상은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d13",
+    "season": "winter",
+    "theme": "한밤의 톱 소리",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "鋸の",
+      "音貧しさよ",
+      "夜半の冬"
+    ],
+    "romaji": [
+      "Nokogiri no",
+      "oto mazushisa yo",
+      "yowa no fuyu"
+    ],
+    "translation_ko": [
+      "톱 소리가",
+      "가난하구나",
+      "한밤의 겨울"
+    ],
+    "kigo_ja": "夜半の冬",
+    "kigo_ko": "한밤의 겨울",
+    "cover_ko": "잠 못 드는 밤, 멀리서 들리는 톱 소리",
+    "commentary_ko": [
+      "한밤에 들려오는 톱질 소리가 가난하고 쓸쓸하게 들린다는 구입니다. 밤늦게 일하는 누군가의 겨울이 소리로만 건너옵니다.",
+      "잠 못 드는 일요일 밤, 어딘가에서 함께 깨어 있는 사람을 떠올려 봅니다."
+    ],
+    "question_ko": "이 밤 어딘가에서 깨어 있을 누군가에게 하고 싶은 말은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d14",
+    "season": "winter",
+    "theme": "이불 한 장의 마음",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "孝行な",
+      "子供等に蒲団",
+      "一つづゝ"
+    ],
+    "romaji": [
+      "Kōkō na",
+      "kodomora ni futon",
+      "hitotsu zutsu"
+    ],
+    "translation_ko": [
+      "효성스러운",
+      "아이들에게 이불을",
+      "하나씩"
+    ],
+    "kigo_ja": "蒲団",
+    "kigo_ko": "이불",
+    "cover_ko": "월요일 아침, 누군가를 따뜻하게 덮어 주고 싶다",
+    "commentary_ko": [
+      "효성스러운 아이들에게 이불을 하나씩 건네는 장면입니다. 말로 하는 위로보다 따뜻하게 덮어 주는 일이 먼저일 때가 있습니다.",
+      "오늘 하루는 누군가를 안아 주듯 이불 한 장 덮어 주는 마음으로 시작해 보세요."
+    ],
+    "question_ko": "오늘 누구를 따뜻하게 안아 주고 싶으세요?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d15",
+    "season": "winter",
+    "theme": "두건 속의 목소리",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "頭巾着て",
+      "声こもりくの",
+      "初瀬法師"
+    ],
+    "romaji": [
+      "Zukin kite",
+      "koe komorikuno",
+      "Hatsuse hōshi"
+    ],
+    "translation_ko": [
+      "두건을 쓰고",
+      "목소리가 먹먹한",
+      "하쓰세의 법사"
+    ],
+    "kigo_ja": "頭巾",
+    "kigo_ko": "두건",
+    "cover_ko": "점심 뒤, 목소리까지 푹 감싼 겨울",
+    "commentary_ko": [
+      "두건을 깊이 쓴 탓에 목소리가 안에서 울리는 하쓰세 절의 법사를 그린 구입니다. 추위가 사람을 감싸 소리까지 둔하게 만듭니다.",
+      "나른한 오후에는 목소리도 마음도 두건 속에 넣어 두고 싶어집니다."
+    ],
+    "question_ko": "오늘 점심 뒤 가장 하고 싶은 것은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d16",
+    "season": "winter",
+    "theme": "잎 진 나무",
+    "poet_ja": "正岡子規",
+    "poet_ko": "마사오카 시키",
+    "original": [
+      "木枯や",
+      "木はみな落ちて",
+      "壁の骨"
+    ],
+    "romaji": [
+      "Kogarashi ya",
+      "ki wa mina ochite",
+      "kabe no hone"
+    ],
+    "translation_ko": [
+      "초겨울 찬바람이여",
+      "나무는 모두 잎이 지고",
+      "벽의 뼈대"
+    ],
+    "kigo_ja": "木枯",
+    "kigo_ko": "초겨울 찬바람",
+    "cover_ko": "퇴근길, 잎이 다 진 나무가 보여 주는 것",
+    "commentary_ko": [
+      "찬바람에 잎이 모두 떨어지고 앙상한 가지만 남았다는 시키의 구입니다. 다 떨어진 뒤에야 구조가 보이는 풍경입니다.",
+      "하루를 비우고 퇴근하는 길에 무엇이 남는지 돌아보게 합니다."
+    ],
+    "question_ko": "오늘 다 비우고 나니 남은 것은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:寒山落木 巻一(card1896)"
+  },
+  {
+    "id": "d17",
+    "season": "winter",
+    "theme": "겨울 칩거의 고요",
+    "poet_ja": "正岡子規",
+    "poet_ko": "마사오카 시키",
+    "original": [
+      "神の代は",
+      "かくやありけん",
+      "冬籠"
+    ],
+    "romaji": [
+      "Kami no yo wa",
+      "kaku ya arikemu",
+      "fuyugomori"
+    ],
+    "translation_ko": [
+      "신들의 시대도",
+      "이러했을까",
+      "겨울 칩거"
+    ],
+    "kigo_ja": "冬籠",
+    "kigo_ko": "겨울 칩거",
+    "cover_ko": "혼자 마시는 차 한 잔, 세상이 멈춘 듯한 저녁",
+    "commentary_ko": [
+      "집 안에 틀어박힌 겨울의 고요를 신화 시대에 견주어 상상하는 시키의 구입니다. 바깥이 멈춘 듯한 정적이 아득한 시간으로 이어집니다.",
+      "따뜻한 차 한 잔 앞에서 혼자만의 아득한 시간을 가져 봅니다."
+    ],
+    "question_ko": "혼자 있는 시간에 가장 하고 싶은 일은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:寒山落木 巻一(card1896)"
+  },
+  {
+    "id": "d19",
+    "season": "winter",
+    "theme": "마른 들판의 햇살",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "てらてらと",
+      "石に日の照る",
+      "枯野かな"
+    ],
+    "romaji": [
+      "Teratera to",
+      "ishi ni hi no teru",
+      "kareno kana"
+    ],
+    "translation_ko": [
+      "반짝반짝",
+      "돌에 햇살이 비치는",
+      "마른 들판"
+    ],
+    "kigo_ja": "枯野",
+    "kigo_ko": "마른 들판",
+    "cover_ko": "주말 아침, 마른 들판 위 반짝이는 돌",
+    "commentary_ko": [
+      "말라 버린 들판의 돌 위로 햇살이 반짝이며 내려앉는 구입니다. 쓸쓸한 풍경에서도 빛이 닿는 곳은 환해집니다.",
+      "주말 아침 햇살이 오늘 어디에 닿을지 찾아보세요."
+    ],
+    "question_ko": "오늘 아침 햇살이 닿은 곳은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d20",
+    "season": "winter",
+    "theme": "서리 내린 밤의 달",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "霜百里",
+      "舟中に我",
+      "月を領す"
+    ],
+    "romaji": [
+      "Shimo hyakuri",
+      "shūchū ni ware",
+      "tsuki wo ryōsu"
+    ],
+    "translation_ko": [
+      "서리 백 리",
+      "배 안에서 나는",
+      "달을 차지한다"
+    ],
+    "kigo_ja": "霜",
+    "kigo_ko": "서리",
+    "cover_ko": "잠 못 드는 일요일 밤, 달을 독차지하다",
+    "commentary_ko": [
+      "끝없이 서리 내린 풍경 속, 배 위에서 홀로 달을 차지한다는 구입니다. 쓸쓸함이 깊어지면 달빛 전체가 내 것이 됩니다.",
+      "잠 못 드는 밤이 달을 독차지하는 시간일 수도 있습니다."
+    ],
+    "question_ko": "오늘 밤 혼자 독차지하고 싶은 것은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d21",
+    "season": "winter",
+    "theme": "초승달 길동무",
+    "poet_ja": "正岡子規",
+    "poet_ko": "마사오카 시키",
+    "original": [
+      "三日月を",
+      "相手にあるく",
+      "枯野哉"
+    ],
+    "romaji": [
+      "Mikazuki wo",
+      "aite ni aruku",
+      "kareno kana"
+    ],
+    "translation_ko": [
+      "초승달을",
+      "길동무 삼아 걷는",
+      "마른 들판"
+    ],
+    "kigo_ja": "枯野",
+    "kigo_ko": "마른 들판",
+    "cover_ko": "월요일 아침, 하늘에 걸린 길동무 하나",
+    "commentary_ko": [
+      "가느다란 초승달을 길동무 삼아 마른 들판을 걷는 시키의 구입니다. 함께하는 이가 없어도 하늘의 달이 곁에 서 줍니다.",
+      "월요일 출근길에도 하늘 어딘가에 길동무 하나가 걸려 있을지 모릅니다."
+    ],
+    "question_ko": "오늘 아침 나의 길동무는?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:寒山落木 巻一(card1896)"
+  },
+  {
+    "id": "d22",
+    "season": "winter",
+    "theme": "동지의 이불",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "唐草に",
+      "牡丹めでたき",
+      "蒲団かな"
+    ],
+    "romaji": [
+      "Karakusa ni",
+      "botan medetaki",
+      "futon kana"
+    ],
+    "translation_ko": [
+      "덩굴무늬에",
+      "모란이 경사스러운",
+      "이불이로구나"
+    ],
+    "kigo_ja": "蒲団",
+    "kigo_ko": "이불",
+    "cover_ko": "동지, 가장 긴 밤을 덮어 줄 이불",
+    "commentary_ko": [
+      "덩굴무늬 사이에 모란이 핀 화사한 이불을 보고 기뻐하는 구입니다. 겨울 한복판에도 이불 속에서 꽃이 피면 긴 밤이 포근해집니다.",
+      "동지, 가장 긴 밤은 이불 속 꽃과 함께 건너면 좋겠습니다."
+    ],
+    "question_ko": "가장 긴 밤, 무엇과 함께 보내고 싶나요?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d23",
+    "season": "winter",
+    "theme": "원앙과 비단",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "鴛鴦や",
+      "国師の沓も",
+      "錦革"
+    ],
+    "romaji": [
+      "Oshi ya",
+      "kokushi no kutsu mo",
+      "nishiki-gawa"
+    ],
+    "translation_ko": [
+      "원앙이여",
+      "국사의 신발도",
+      "비단 가죽"
+    ],
+    "kigo_ja": "鴛鴦",
+    "kigo_ko": "원앙",
+    "cover_ko": "퇴근길, 연못의 원앙처럼 눈에 띈 화사한 것",
+    "commentary_ko": [
+      "원앙을 보다가 고승이 신은 신발까지 비단 가죽이라며 눈길이 번지는 구입니다. 화려한 것에 마음이 머무는 순간의 작은 감탄이 담겨 있습니다.",
+      "퇴근길에 마주친 화사한 것 하나가 하루의 끝을 환하게 합니다."
+    ],
+    "question_ko": "오늘 퇴근길에 눈에 띈 화사한 것은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d24",
+    "season": "winter",
+    "theme": "이브의 고요",
+    "poet_ja": "正岡子規",
+    "poet_ko": "마사오카 시키",
+    "original": [
+      "水鳥の",
+      "四五羽は出たり",
+      "枯尾花"
+    ],
+    "romaji": [
+      "Mizudori no",
+      "shigowa wa detari",
+      "kare obana"
+    ],
+    "translation_ko": [
+      "물새가",
+      "네댓 마리 나와 있다",
+      "마른 참억새"
+    ],
+    "kigo_ja": "枯尾花",
+    "kigo_ko": "마른 참억새",
+    "cover_ko": "이브의 밤, 조용한 물가의 네댓 마리",
+    "commentary_ko": [
+      "마른 억새 사이로 물새 네댓 마리가 모습을 드러낸 시키의 구입니다. 떠들썩한 날에도 물가에는 조용한 겨울이 그대로 있습니다.",
+      "이브의 밤, 혼자 마시는 따뜻한 차 한 잔도 이런 고요의 한 장면입니다."
+    ],
+    "question_ko": "오늘 밤, 나만의 고요는 어디에 있나요?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:寒山落木 巻一(card1896)"
+  },
+  {
+    "id": "d25",
+    "season": "winter",
+    "theme": "금요일 밤의 한 모금",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "漁家寒し",
+      "酒に頭の",
+      "雪を焼く"
+    ],
+    "romaji": [
+      "Ryōka samushi",
+      "sake ni kashira no",
+      "yuki wo yaku"
+    ],
+    "translation_ko": [
+      "어부의 집은 춥고",
+      "술로 머리의",
+      "눈을 녹인다"
+    ],
+    "kigo_ja": "寒し",
+    "kigo_ko": "추위",
+    "cover_ko": "크리스마스, 금요일 밤. 술 한 잔이 머리의 눈을 녹인다",
+    "commentary_ko": [
+      "추운 어부의 집에서 술 한 잔으로 머리 위의 눈을 녹인다는 구입니다. 고단한 하루 끝에는 따뜻한 한 모금이 몸을 먼저 풀어 줍니다.",
+      "한 주를 마친 금요일 밤에는 따뜻한 한 모금이 가장 정직한 위로일 때가 있습니다."
+    ],
+    "question_ko": "이번 주를 마치며 건배하고 싶은 것은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d26",
+    "season": "winter",
+    "theme": "데굴데굴 이불",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "沙弥律師",
+      "ころりころりと",
+      "衾かな"
+    ],
+    "romaji": [
+      "Shami risshi",
+      "korori korori to",
+      "fusuma kana"
+    ],
+    "translation_ko": [
+      "어린 승려도 율사도",
+      "데굴데굴",
+      "이불 속이로구나"
+    ],
+    "kigo_ja": "衾",
+    "kigo_ko": "이불",
+    "cover_ko": "주말 아침, 이불 속에서 데굴데굴",
+    "commentary_ko": [
+      "어린 승려도 높은 율사도 이불 속에서 데굴데굴 구른다는 익살입니다. 신분과 체면은 이불 밖에 두고 오는 모양입니다.",
+      "주말 아침만큼은 누구나 이불 속에서 데굴데굴 굴러도 됩니다."
+    ],
+    "question_ko": "오늘 아침 이불 속에서 한 생각은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d27",
+    "season": "winter",
+    "theme": "얼어붙은 붓",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "歯あらはに",
+      "筆の氷を",
+      "噛む夜かな"
+    ],
+    "romaji": [
+      "Ha arawa ni",
+      "fude no kōri wo",
+      "kamu yo kana"
+    ],
+    "translation_ko": [
+      "이를 드러내고",
+      "붓의 얼음을",
+      "깨무는 밤"
+    ],
+    "kigo_ja": "氷",
+    "kigo_ko": "얼음",
+    "cover_ko": "잠 못 드는 일요일 밤, 얼어붙은 붓끝",
+    "commentary_ko": [
+      "추위에 붓끝이 얼어붙자 이로 얼음을 깨물어 녹이는 밤을 그린 구입니다. 쓰고야 말겠다는 집념이 이를 드러낸 표정에 묻어납니다.",
+      "잠 못 드는 일요일 밤, 해야 할 일 앞에서의 마음과도 닮았습니다."
+    ],
+    "question_ko": "지금 끝내고 싶은 일은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d28",
+    "season": "winter",
+    "theme": "연말의 도끼질",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "乾鮭や",
+      "琴に斧うつ",
+      "響あり"
+    ],
+    "romaji": [
+      "Karazake ya",
+      "koto ni ono utsu",
+      "hibiki ari"
+    ],
+    "translation_ko": [
+      "말린 연어여",
+      "거문고에 도끼를 치는",
+      "울림이 있다"
+    ],
+    "kigo_ja": "乾鮭",
+    "kigo_ko": "말린 연어",
+    "cover_ko": "월요일 아침, 연말 업무에 도끼질하는 소리",
+    "commentary_ko": [
+      "말린 연어를 도끼로 내리치는 소리가 거문고를 두드리는 듯 울린다는 구입니다. 거친 일에서도 소리를 듣는 귀가 익살이 됩니다.",
+      "거친 하루의 시작에서도 울림 하나를 찾아보는 시선입니다."
+    ],
+    "question_ko": "오늘 하루의 시작에서 들은 울림은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d29",
+    "season": "winter",
+    "theme": "연말의 대청소",
+    "poet_ja": "正岡子規",
+    "poet_ko": "마사오카 시키",
+    "original": [
+      "君が春",
+      "箒に掃ふ",
+      "塵もなし"
+    ],
+    "romaji": [
+      "Kimi ga haru",
+      "hōki ni harau",
+      "chiri mo nashi"
+    ],
+    "translation_ko": [
+      "그대의 새봄",
+      "빗자루로 쓸어 낼",
+      "먼지도 없다"
+    ],
+    "kigo_ja": "君が春",
+    "kigo_ko": "새해 인사(신춘)",
+    "cover_ko": "점심 뒤, 쓸어 낼 먼지 하나 없는 집",
+    "commentary_ko": [
+      "새해를 맞아 쓸어 낼 먼지조차 없다는 시키의 새해 인사구입니다. 정갈하게 한 해를 맞이하는 마음이 보입니다.",
+      "연말 대청소를 끝낸 집처럼, 마음도 한 번 쓸어 둘 때입니다."
+    ],
+    "question_ko": "올해가 가기 전에 정리하고 싶은 것은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:寒山落木 巻一(card1896)"
+  },
+  {
+    "id": "d30",
+    "season": "winter",
+    "theme": "새해 떡국",
+    "poet_ja": "与謝蕪村",
+    "poet_ko": "요사 부손",
+    "original": [
+      "三椀の",
+      "雑煮かふるや",
+      "長者ぶり"
+    ],
+    "romaji": [
+      "Sanwan no",
+      "zōni kauru ya",
+      "chōja buri"
+    ],
+    "translation_ko": [
+      "세 그릇의",
+      "떡국을 거듭 먹으며",
+      "부자 행세"
+    ],
+    "kigo_ja": "雑煮",
+    "kigo_ko": "떡국(설 음식)",
+    "cover_ko": "퇴근길, 내일모레 먹을 떡국을 생각하며",
+    "commentary_ko": [
+      "설날 떡국을 세 그릇 거듭 먹으며 부자인 양 우쭐하는 익살입니다. 새해 음식 앞에서 누구나 잠깐 부자가 됩니다.",
+      "한 해의 끝, 퇴근길의 허기도 떡국 한 그릇이면 풍성해집니다."
+    ],
+    "question_ko": "새해 첫 끼로 가장 먹고 싶은 음식은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:俳人蕪村(card57362)"
+  },
+  {
+    "id": "d31",
+    "season": "winter",
+    "theme": "한 해의 마지막 물",
+    "poet_ja": "正岡子規",
+    "poet_ko": "마사오카 시키",
+    "original": [
+      "若水や",
+      "瓶の底なる",
+      "去年の水"
+    ],
+    "romaji": [
+      "Wakamizu ya",
+      "kame no soko naru",
+      "kozo no mizu"
+    ],
+    "translation_ko": [
+      "새해 첫 물이여",
+      "항아리 바닥에 남은",
+      "지난해의 물"
+    ],
+    "kigo_ja": "若水",
+    "kigo_ko": "설날 첫 물",
+    "cover_ko": "한 해의 마지막 날, 항아리 바닥에 남은 지난해",
+    "commentary_ko": [
+      "새해 첫 물을 길으려는 항아리 바닥에 아직 지난해의 물이 남아 있다는 시키의 구입니다. 새것과 묵은 것이 한 항아리에서 만나는 순간이 한 해의 경계를 보여 줍니다.",
+      "마지막 날에는 올해의 마지막 한 모금을 천천히 마셔 봅니다."
+    ],
+    "question_ko": "올해에서 새해로 가져가고 싶은 것은?",
+    "status": "approved",
+    "posted_at": null,
+    "source": "aozora:寒山落木 巻一(card1896)"
   }
 ]

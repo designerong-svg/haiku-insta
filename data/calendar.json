@@ -151,7 +151,7 @@
     "source_check": "",
     "fallback_to_season_ok": true,
     "poem_id": "n03",
-    "poem_status": "draft"
+    "poem_status": "approved"
   },
   {
     "day_no": 8,
@@ -349,7 +349,7 @@
     "source_check": "검색 확인(데이 목록 기사)",
     "fallback_to_season_ok": true,
     "poem_id": "n10",
-    "poem_status": "draft"
+    "poem_status": "approved"
   },
   {
     "day_no": 17,
@@ -415,7 +415,7 @@
     "source_check": "통상 고정일",
     "fallback_to_season_ok": true,
     "poem_id": "n12",
-    "poem_status": "draft"
+    "poem_status": "approved"
   },
   {
     "day_no": 20,
@@ -569,7 +569,7 @@
     "source_check": "",
     "fallback_to_season_ok": true,
     "poem_id": "n17",
-    "poem_status": "draft"
+    "poem_status": "approved"
   },
   {
     "day_no": 27,
@@ -591,7 +591,7 @@
     "source_check": "",
     "fallback_to_season_ok": true,
     "poem_id": "n18",
-    "poem_status": "draft"
+    "poem_status": "approved"
   },
   {
     "day_no": 28,
@@ -613,7 +613,7 @@
     "source_check": "",
     "fallback_to_season_ok": true,
     "poem_id": "n22",
-    "poem_status": "draft"
+    "poem_status": "approved"
   },
   {
     "day_no": 29,
@@ -657,7 +657,7 @@
     "source_check": "",
     "fallback_to_season_ok": true,
     "poem_id": "n20",
-    "poem_status": "draft"
+    "poem_status": "approved"
   },
   {
     "day_no": 31,
@@ -722,8 +722,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d01",
+    "poem_status": "approved"
   },
   {
     "day_no": 34,
@@ -744,8 +744,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d02",
+    "poem_status": "approved"
   },
   {
     "day_no": 35,
@@ -766,8 +766,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d03",
+    "poem_status": "approved"
   },
   {
     "day_no": 36,
@@ -788,8 +788,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d04",
+    "poem_status": "approved"
   },
   {
     "day_no": 37,
@@ -810,8 +810,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d05",
+    "poem_status": "approved"
   },
   {
     "day_no": 38,
@@ -832,8 +832,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d06",
+    "poem_status": "approved"
   },
   {
     "day_no": 39,
@@ -854,8 +854,8 @@
     "inclusion_note": "",
     "source_check": "계산(천문·음양력 변환)",
     "fallback_to_season_ok": false,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d07",
+    "poem_status": "approved"
   },
   {
     "day_no": 40,
@@ -876,8 +876,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d08",
+    "poem_status": "approved"
   },
   {
     "day_no": 41,
@@ -898,8 +898,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d09",
+    "poem_status": "approved"
   },
   {
     "day_no": 42,
@@ -920,8 +920,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d10",
+    "poem_status": "approved"
   },
   {
     "day_no": 43,
@@ -942,8 +942,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d11",
+    "poem_status": "approved"
   },
   {
     "day_no": 44,
@@ -964,8 +964,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d12",
+    "poem_status": "approved"
   },
   {
     "day_no": 45,
@@ -986,8 +986,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d13",
+    "poem_status": "approved"
   },
   {
     "day_no": 46,
@@ -1008,8 +1008,8 @@
     "inclusion_note": "연인뿐 아니라 가족·친구·나 자신에게 건네는 마음으로 풀기",
     "source_check": "검색 확인(14일 데이 목록, 출처마다 일부 상이)",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d14",
+    "poem_status": "approved"
   },
   {
     "day_no": 47,
@@ -1030,8 +1030,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d15",
+    "poem_status": "approved"
   },
   {
     "day_no": 48,
@@ -1052,8 +1052,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d16",
+    "poem_status": "approved"
   },
   {
     "day_no": 49,
@@ -1074,8 +1074,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d17",
+    "poem_status": "approved"
   },
   {
     "day_no": 50,
@@ -1096,8 +1096,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "m06",
+    "poem_status": "approved"
   },
   {
     "day_no": 51,
@@ -1118,8 +1118,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d19",
+    "poem_status": "approved"
   },
   {
     "day_no": 52,
@@ -1140,8 +1140,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d20",
+    "poem_status": "approved"
   },
   {
     "day_no": 53,
@@ -1162,8 +1162,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d21",
+    "poem_status": "approved"
   },
   {
     "day_no": 54,
@@ -1184,8 +1184,8 @@
     "inclusion_note": "팥죽을 먹고 낮이 다시 길어지기 시작하는 날",
     "source_check": "계산(천문·음양력 변환)",
     "fallback_to_season_ok": false,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d22",
+    "poem_status": "approved"
   },
   {
     "day_no": 55,
@@ -1206,8 +1206,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d23",
+    "poem_status": "approved"
   },
   {
     "day_no": 56,
@@ -1228,8 +1228,8 @@
     "inclusion_note": "혼자도 연인도 가족도 모두 공감하게",
     "source_check": "통상 고정일",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d24",
+    "poem_status": "approved"
   },
   {
     "day_no": 57,
@@ -1250,8 +1250,8 @@
     "inclusion_note": "종교색보다 '온기·나눔'",
     "source_check": "통상 고정일",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d25",
+    "poem_status": "approved"
   },
   {
     "day_no": 58,
@@ -1272,8 +1272,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d26",
+    "poem_status": "approved"
   },
   {
     "day_no": 59,
@@ -1294,8 +1294,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d27",
+    "poem_status": "approved"
   },
   {
     "day_no": 60,
@@ -1316,8 +1316,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d28",
+    "poem_status": "approved"
   },
   {
     "day_no": 61,
@@ -1338,8 +1338,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d29",
+    "poem_status": "approved"
   },
   {
     "day_no": 62,
@@ -1360,8 +1360,8 @@
     "inclusion_note": "",
     "source_check": "",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d30",
+    "poem_status": "approved"
   },
   {
     "day_no": 63,
@@ -1382,8 +1382,8 @@
     "inclusion_note": "",
     "source_check": "통상 고정일",
     "fallback_to_season_ok": true,
-    "poem_id": null,
-    "poem_status": "unassigned"
+    "poem_id": "d31",
+    "poem_status": "approved"
   },
   {
     "day_no": 64,
