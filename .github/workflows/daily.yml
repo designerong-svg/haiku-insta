@@ -2,7 +2,7 @@ name: daily-haiku
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # 매일 08:00 KST (UTC 23:00). GitHub 사정으로 수~수십 분 늦을 수 있음
+    - cron: "23 23 * * *"   # 매일 08:00 KST (UTC 23:00). GitHub 사정으로 수~수십 분 늦을 수 있음
   workflow_dispatch:
     inputs:
       dry_run:
