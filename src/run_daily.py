@@ -33,12 +33,16 @@ def public_url(rel_path: str, cfg: dict) -> str:
 def cmd_prepare(args) -> int:
     cfg = store.load_config()
     queue = store.load_queue()
+    today = dt.datetime.now(ZoneInfo(cfg["timezone"])).date().isoformat()
     if args.id:
         item = next((p for p in queue if p["id"] == args.id), None)
     else:
-        import datetime as dt
-        from zoneinfo import ZoneInfo
-        today = dt.datetime.now(ZoneInfo(cfg["timezone"])).date().isoformat()
+        # 예약 실행이 하루에 여러 번 돌아도(건너뜀 대비 이중 예약) 같은 날 두 번 올리지 않는다.
+        if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and any(
+                str(p.get("posted_at") or "").startswith(today) for p in queue):
+            print(f"{today}: 오늘은 이미 게시되었습니다. 건너뜁니다.")
+            STATE.unlink(missing_ok=True)
+            return 0
         item = store.pick_next(queue, store.current_season(cfg), today)
     if not item:
         print("게시 가능한(status=approved) 항목이 큐에 없습니다. data/queue.json을 채워주세요.", file=sys.stderr)
@@ -60,6 +64,9 @@ def cmd_prepare(args) -> int:
 
 def cmd_publish(_args) -> int:
     cfg = store.load_config()
+    if not STATE.exists():
+        print("게시할 항목이 없습니다(오늘 이미 게시됨). 건너뜁니다.")
+        return 0
     state = json.loads(STATE.read_text("utf-8"))
     queue = store.load_queue()
     item = next(p for p in queue if p["id"] == state["id"])
