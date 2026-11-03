@@ -575,9 +575,10 @@
       "같은 길도 어떤 빛 아래에서 걷느냐에 따라 전혀 다른 풍경이 됩니다."
     ],
     "question_ko": "오늘 퇴근길에 올려다본 하늘은 어땠나요?",
-    "status": "approved",
-    "posted_at": null,
-    "source": "aozora:俳人蕪村(card57362)"
+    "status": "posted",
+    "posted_at": "2026-11-03T12:57:37+09:00",
+    "source": "aozora:俳人蕪村(card57362)",
+    "media_id": "18103229282379841"
   },
   {
     "id": "n03",
