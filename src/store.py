@@ -66,23 +66,38 @@ def pick_next(queue: list[dict], season: str, date_iso: str | None = None) -> di
     return ready[0] if ready else None
 
 
-def build_caption(post: dict, cfg: dict) -> str:
+def hashtags(post: dict, cfg: dict) -> list[str]:
+    """브랜드 태그 + 시인 태그 + 계절 태그 + 넓은 태그 순으로, 중복 없이 max_hashtags개까지."""
     season = post.get("season", "any")
+    poet = post.get("poet_ko", "")
+    poet_tags = cfg.get("poet_hashtags", {}).get(poet) or ([("#" + poet.replace(" ", ""))] if poet else [])
     tags: list[str] = []
-    for t in cfg.get("base_hashtags", []) + cfg.get("season_hashtags", {}).get(season, []):
+    for t in (cfg.get("base_hashtags", []) + poet_tags + cfg.get("season_hashtags", {}).get(season, [])
+              + cfg.get("broad_hashtags", [])):
         if t not in tags:
             tags.append(t)
+    return tags[: int(cfg.get("max_hashtags", 10))]
+
+
+def build_caption(post: dict, cfg: dict) -> str:
+    season = post.get("season", "any")
+    hook = post.get("cover_ko") or post["theme"]
+    original = " ".join(post.get("original", []))
     lines = [
-        f"{SEASON_EMOJI.get(season, '📜')} 오늘의 하이쿠 | {post['theme']}",
+        f"{SEASON_EMOJI.get(season, '📜')} {hook}",
         "",
         " / ".join(post["translation_ko"]),
-        f"— {post['poet_ko']}",
+        f"— {post['poet_ko']}" + (f" ({original})" if original else ""),
         "",
         post["commentary_ko"][0],
         "",
-        "🔖 저장해두고 마음이 헛헛할 때 꺼내 보세요.",
-        "💌 함께 읽고 싶은 사람에게 공유해 보세요.",
+    ]
+    if post.get("question_ko"):
+        lines.append(f"💬 {post['question_ko']}")
+    lines += [
+        "🔖 저장해 두고 마음이 헛헛할 때 꺼내 보세요.",
+        "🕊 매일 아침 하이쿠 한 편, 팔로우하면 놓치지 않아요.",
         "",
-        " ".join(tags[:30]),
+        " ".join(hashtags(post, cfg)),
     ]
     return "\n".join(lines)

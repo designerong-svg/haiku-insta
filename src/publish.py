@@ -64,3 +64,47 @@ def post_carousel(image_urls: list[str], caption: str, cfg: dict) -> str:
     r = requests.post(f"{base}/{uid}/media_publish", timeout=60, data={
         "creation_id": container, "access_token": token})
     return _check(r)["id"]
+
+
+def _wait_container(base: str, container: str, token: str, tries: int = 60, pause: int = 5) -> None:
+    for _ in range(tries):  # 영상은 처리 시간이 더 걸린다 (기본 최대 ~5분)
+        s = _check(requests.get(f"{base}/{container}", timeout=30, params={
+            "fields": "status_code", "access_token": token}))
+        code = s.get("status_code")
+        if code == "FINISHED":
+            return
+        if code in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"릴스 처리 실패: {s}")
+        time.sleep(pause)
+    raise RuntimeError("릴스 처리 시간 초과")
+
+
+def post_reel(video_path: str, video_url: str | None, caption: str, cfg: dict) -> str:
+    """릴스 게시. 1순위: 파일을 Meta에 직접 올리는 방식(resumable), 안 되면 2순위: 공개 URL 방식."""
+    base = cfg["graph_base"].rstrip("/")
+    uid = os.environ["IG_USER_ID"]
+    token = os.environ["IG_ACCESS_TOKEN"]
+    container = None
+    try:
+        r = requests.post(f"{base}/{uid}/media", timeout=60, data={
+            "media_type": "REELS", "upload_type": "resumable", "caption": caption,
+            "share_to_feed": "true", "access_token": token})
+        j = _check(r)
+        data = open(video_path, "rb").read()
+        up = requests.post(j["uri"], timeout=300, data=data, headers={
+            "Authorization": f"OAuth {token}", "offset": "0", "file_size": str(len(data))})
+        if not up.ok:
+            raise RuntimeError(f"직접 업로드 실패 {up.status_code}: {up.text[:200]}")
+        container = j["id"]
+    except Exception as e:  # noqa: BLE001
+        if not video_url:
+            raise
+        print(f"[reel] 직접 업로드 불가({e}). 공개 URL 방식으로 다시 시도합니다.")
+        r = requests.post(f"{base}/{uid}/media", timeout=60, data={
+            "media_type": "REELS", "video_url": video_url, "caption": caption,
+            "share_to_feed": "true", "access_token": token})
+        container = _check(r)["id"]
+    _wait_container(base, container, token)
+    r = requests.post(f"{base}/{uid}/media_publish", timeout=60, data={
+        "creation_id": container, "access_token": token})
+    return _check(r)["id"]
