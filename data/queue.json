@@ -901,9 +901,10 @@
       "기억은 때로 소리 없이 한자리에 오래 머무는 일입니다."
     ],
     "question_ko": "오늘 조용히 떠올린 사람이나 날이 있나요?",
-    "status": "approved",
-    "posted_at": null,
-    "source": "aozora:俳人蕪村(card57362)"
+    "status": "posted",
+    "posted_at": "2026-11-08T11:33:29+09:00",
+    "source": "aozora:俳人蕪村(card57362)",
+    "media_id": "18108247787369582"
   },
   {
     "id": "n13",
