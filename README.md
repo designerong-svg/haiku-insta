@@ -76,3 +76,9 @@ src/generate.py     큐 자동 보충 (Claude API)
 src/store.py        큐·시즌·캡션
 .github/workflows/daily.yml   일일 스케줄
 ```
+
+## 스레드 · X 동시 게시
+- GitHub Secrets에 `THREADS_USER_ID`, `THREADS_ACCESS_TOKEN` (스레드), `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET` (X)를 등록하면 해당 채널이 자동으로 켜집니다.
+- 글 미리 보기: `python -m src.channels preview` / 글만 올려 보는 테스트: `python -m src.channels test threads "글"`
+- 채널 하나가 실패해도 나머지는 올라가며, 실패한 채널만 다음 예약 실행에서 다시 시도합니다 (`data/queue.json`의 `channels_posted`).
+- 스레드 토큰은 60일마다 연장: 로컬에서 `python -m src.publish_threads refresh --show` 후 Secrets 갱신.

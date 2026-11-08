@@ -67,5 +67,6 @@
     ]
   },
   "max_hashtags": 10,
-  "threads_tag": "#하이쿠"
+  "threads_tag": "#하이쿠",
+  "reel": true
 }
