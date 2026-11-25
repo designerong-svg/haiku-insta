@@ -1527,9 +1527,16 @@
       "큰 슬픔일수록 크게 말하지 않고 작게 보여 줄 때가 있습니다."
     ],
     "question_ko": "이별한 뒤 가장 먼저 눈에 들어온 것은 무엇이었나요?",
-    "status": "approved",
-    "posted_at": null,
-    "source": "aozora:俳人蕪村(card57362)"
+    "status": "posted",
+    "posted_at": "2026-11-25T14:28:50+09:00",
+    "source": "aozora:俳人蕪村(card57362)",
+    "channels_posted": {
+      "instagram": {
+        "id": "18120718699812353",
+        "at": "2026-11-25T14:28:50+09:00"
+      }
+    },
+    "media_id": "18120718699812353"
   },
   {
     "id": "m07",
