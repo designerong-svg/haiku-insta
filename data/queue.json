@@ -2361,9 +2361,16 @@
       "졸음이 쏟아지는 오후에는 잠깐 해삼이 되어도 괜찮다고 시가 말해 줍니다."
     ],
     "question_ko": "오늘 오후, 가장 웅크리고 싶은 순간은?",
-    "status": "approved",
-    "posted_at": null,
-    "source": "aozora:俳人蕪村(card57362)"
+    "status": "posted",
+    "posted_at": "2026-11-26T14:09:53+09:00",
+    "source": "aozora:俳人蕪村(card57362)",
+    "channels_posted": {
+      "instagram": {
+        "id": "18102592253432371",
+        "at": "2026-11-26T14:09:53+09:00"
+      }
+    },
+    "media_id": "18102592253432371"
   },
   {
     "id": "d02",
