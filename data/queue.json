@@ -2401,9 +2401,16 @@
       "하루의 소음이 빠져나가야 비로소 달이 보이는 법입니다."
     ],
     "question_ko": "오늘 소란이 끝난 뒤 가장 먼저 든 마음은?",
-    "status": "approved",
-    "posted_at": null,
-    "source": "aozora:俳人蕪村(card57362)"
+    "status": "posted",
+    "posted_at": "2026-11-27T14:06:55+09:00",
+    "source": "aozora:俳人蕪村(card57362)",
+    "channels_posted": {
+      "instagram": {
+        "id": "18049474277829243",
+        "at": "2026-11-27T14:06:55+09:00"
+      }
+    },
+    "media_id": "18049474277829243"
   },
   {
     "id": "d03",
