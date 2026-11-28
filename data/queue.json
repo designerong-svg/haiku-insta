@@ -2441,9 +2441,16 @@
       "따뜻한 차 한 잔 곁에서 듣는 생활의 소리가 그렇습니다."
     ],
     "question_ko": "요즘 들으면 마음이 놓이는 생활 소리는?",
-    "status": "approved",
-    "posted_at": null,
-    "source": "aozora:寒山落木 巻一(card1896)"
+    "status": "posted",
+    "posted_at": "2026-11-28T13:46:59+09:00",
+    "source": "aozora:寒山落木 巻一(card1896)",
+    "channels_posted": {
+      "instagram": {
+        "id": "18127360043288662",
+        "at": "2026-11-28T13:46:59+09:00"
+      }
+    },
+    "media_id": "18127360043288662"
   },
   {
     "id": "d04",
